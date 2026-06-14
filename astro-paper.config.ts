@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
   url: "https://goinggeo.com",
-  title: "GEO 优化指南",
+  title: "GoingGEO.com",
   description: "生成式引擎优化（GEO）知识普及与实操教学",
-  author: "GoogingGEO.com",
+  author: "GoingGEO.com",
   profile: "https://goinggeo.com/about/",
   ogImage: "default-og.jpg",
   lang: "zh-CN",
