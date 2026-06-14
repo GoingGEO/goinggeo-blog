@@ -8,7 +8,7 @@ export default defineAstroPaperConfig({
   author: "GoogingGEO.com",
   profile: "https://goinggeo.com/about/",
   ogImage: "default-og.jpg",
-  lang: "zh-CN",
+  lang: "en",
   timezone: "Asia/Shanghai",
   dir: "ltr",
 },
