@@ -21,7 +21,7 @@ function existsInPublic(filename: string): boolean {
 export function resolveDefaultOgImagePath(
   config: ResolvedAstroPaperConfig
 ): string {
-  const filename = config.site.ogImage;
+  const filename = config.site.ogImage.replace(/^\/+/, "");
   if (
     filename.includes("..") ||
     filename.includes("/") ||
