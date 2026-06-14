@@ -7,7 +7,7 @@ export default defineAstroPaperConfig({
   description: "生成式引擎优化（GEO）知识普及与实操教学",
   author: "GoogingGEO.com",
   profile: "https://goinggeo.com/about/",
-  ogImage: "/default-og.jpg",
+  ogImage: "default-og.jpg",
   lang: "zh-CN",
   timezone: "Asia/Shanghai",
   dir: "ltr",
