@@ -144,7 +144,6 @@ const ogImage = ogImageUrl
     >
       <Content />
     </article>
- <Giscus client:load />
     <hr class="my-8 border-dashed" />
 
     <EditPost class="sm:hidden" {hideEditPost} {post} />
@@ -158,7 +157,7 @@ const ogImage = ogImageUrl
     <ShareLinks />
 
     <hr class="my-8 border-dashed" />
-
+ <Giscus client:load />
     <AdjacentPostNav {prevPost} {nextPost} />
   </main>
   <Footer />
