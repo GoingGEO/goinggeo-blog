@@ -1,4 +1,4 @@
-# goinggeo-blog 📄
+# GoingGEO-blog 📄
 Official Website：[GoingGeo 生成式引擎优化博客](https://goinggeo.com)
 ![AstroPaper](public/default-og.jpg)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
