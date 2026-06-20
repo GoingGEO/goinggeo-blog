@@ -58,15 +58,17 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  // Font config: Google Sans Code is used ONLY for OG image generation (satori).
+  // The website itself loads Noto Sans SC via Google Fonts <link> in Layout.astro
+  // for efficient CJK font delivery with unicode-range subsetting.
   fonts: [
     {
       name: "Google Sans Code",
       cssVariable: "--font-google-sans-code",
       provider: fontProviders.google(),
       fallbacks: ["monospace"],
-      weights: [300, 400, 500, 600, 700],
-      styles: ["normal", "italic"],
-      formats: ["woff", "ttf"],
+      weights: [400, 700],
+      styles: ["normal"],
     },
   ],
   env: {

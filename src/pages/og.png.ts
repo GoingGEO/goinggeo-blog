@@ -5,23 +5,57 @@ import { fontData, experimental_getFontFileURL } from "astro:assets";
 import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
-export const GET: APIRoute = async context => {
-  const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+const FONT_FAMILY = "Google Sans Code";
 
-  if (regularFontPath === undefined || boldFontPath === undefined) {
-    throw new Error("Cannot find the font path.");
+/** Attempt to load font data via the Astro fonts API (requires network access to Google Fonts). */
+async function loadFonts(context: { url: URL }) {
+  const astroFonts = fontData["--font-google-sans-code"];
+  if (!astroFonts || astroFonts.length === 0) return null;
+
+  const regularFontPath = getFontPathByWeight(astroFonts, 400);
+  const boldFontPath = getFontPathByWeight(astroFonts, 700);
+  if (!regularFontPath || !boldFontPath) return null;
+
+  try {
+    const [regularData, boldData] = await Promise.all([
+      fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
+        res.arrayBuffer()
+      ),
+      fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
+        res.arrayBuffer()
+      ),
+    ]);
+    return [
+      { name: FONT_FAMILY, data: regularData, weight: 400 as const, style: "normal" as const },
+      { name: FONT_FAMILY, data: boldData, weight: 700 as const, style: "normal" as const },
+    ];
+  } catch {
+    return null;
   }
+}
 
-  const [regularData, boldData] = await Promise.all([
-    fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
-      res.arrayBuffer()
-    ),
-    fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
-      res.arrayBuffer()
-    ),
-  ]);
+/** Generate a simple fallback OG image using SVG + sharp (no external font dependency). */
+function fallbackOGImage(): Buffer {
+  const svg = `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="630" fill="#fafafa"/>
+    <rect x="40" y="40" width="1120" height="550" rx="8" fill="#ffffff" stroke="#e5e5ea" stroke-width="2"/>
+    <text x="600" y="280" font-family="sans-serif" font-size="64" font-weight="bold" text-anchor="middle" fill="#1c1c1e">${config.site.title}</text>
+    <text x="600" y="340" font-family="sans-serif" font-size="28" text-anchor="middle" fill="#6b7280">${config.site.description}</text>
+    <text x="600" y="540" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2563eb">${new URL(config.site.url).hostname}</text>
+  </svg>`;
+  return Buffer.from(svg);
+}
+
+export const GET: APIRoute = async context => {
+  const fonts = await loadFonts(context);
+
+  // If fonts aren't available (e.g. offline build), use the SVG fallback.
+  if (!fonts) {
+    const pngBuffer = await sharp(fallbackOGImage()).png().toBuffer();
+    return new Response(new Uint8Array(pngBuffer), {
+      headers: { "Content-Type": "image/png" },
+    });
+  }
 
   const svg = await satori(
     {
@@ -34,7 +68,7 @@ export const GET: APIRoute = async context => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Google Sans Code",
+          fontFamily: FONT_FAMILY,
         },
         children: [
           {
@@ -143,20 +177,7 @@ export const GET: APIRoute = async context => {
       width: 1200,
       height: 630,
       embedFont: true,
-      fonts: [
-        {
-          name: "Google Sans Code",
-          data: regularData,
-          weight: 400,
-          style: "normal",
-        },
-        {
-          name: "Google Sans Code",
-          data: boldData,
-          weight: 700,
-          style: "normal",
-        },
-      ],
+      fonts,
     }
   );
 

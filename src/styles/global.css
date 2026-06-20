@@ -4,6 +4,7 @@
 @import "rehype-callouts/theme/obsidian";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@custom-variant sepia (&:where([data-theme=sepia], [data-theme=sepia] *));
 
 @layer base {
   * {

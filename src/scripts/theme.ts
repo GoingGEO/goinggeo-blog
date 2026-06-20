@@ -1,6 +1,14 @@
 const THEME_KEY = "theme";
 const LIGHT = "light";
+const SEPIA = "sepia";
 const DARK = "dark";
+
+// 3-state cycle: light → sepia → dark → light
+const CYCLE: Record<string, string> = {
+  [LIGHT]: SEPIA,
+  [SEPIA]: DARK,
+  [DARK]: LIGHT,
+};
 
 function getPreferredTheme(): string {
   const stored = localStorage.getItem(THEME_KEY);
@@ -37,7 +45,7 @@ function reflect(): void {
 function setup(): void {
   reflect();
   document.querySelector("#theme-btn")?.addEventListener("click", () => {
-    themeValue = themeValue === LIGHT ? DARK : LIGHT;
+    themeValue = CYCLE[themeValue] ?? LIGHT;
     persist();
   });
 }
@@ -61,9 +69,11 @@ document.addEventListener("astro:before-swap", event => {
 });
 
 // Sync with OS-level dark/light preference changes.
+// Don't override if the user manually chose sepia mode.
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", ({ matches }) => {
+    if (themeValue === SEPIA) return;
     themeValue = matches ? DARK : LIGHT;
     persist();
   });

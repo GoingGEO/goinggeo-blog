@@ -7,28 +7,39 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: var(--font-google-sans-code);
+  --font-app: "Noto Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-/* Light theme values */
+/* ===== Light theme — clean & modern ===== */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
+  --background: #fafafa;
+  --foreground: #1c1c1e;
+  --accent: #2563eb;
   --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
+  --muted: #f2f2f7;
   --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --border: #e5e5ea;
 }
 
-/* Dark theme values */
+/* ===== Sepia theme — warm parchment, eye-friendly reading ===== */
+[data-theme="sepia"] {
+  --background: #f5ecd9;
+  --foreground: #5b4636;
+  --accent: #8b6914;
+  --accent-foreground: #f5ecd9;
+  --muted: #ebe0c8;
+  --muted-foreground: #8c7b6b;
+  --border: #d4c5a9;
+}
+
+/* ===== Dark theme — soft & modern ===== */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #1a1b26;
+  --foreground: #c0caf5;
+  --accent: #7aa2f7;
+  --accent-foreground: #1a1b26;
+  --muted: #2a2b3d;
+  --muted-foreground: #9aa5ce;
+  --border: #3b3d52;
 }
