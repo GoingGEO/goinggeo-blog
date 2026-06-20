@@ -1,7 +1,7 @@
 ---
 title: "外贸网站 Schema 标记入门：让 AI 看懂你的页面"
 description: "Schema 标记是给 AI 的「翻译层」——把你的页面内容翻译成机器能精准理解的结构化数据。含 FAQPage Schema 的页面，AI 引用率是无 Schema 页面的 2.7 倍。这篇讲清楚原理和做法。"
-pubDatetime: 2026-06-20T10:00:00+08:00
+pubDatetime: 2026-06-17T10:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "geo-basics"]
 ---

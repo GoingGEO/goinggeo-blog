@@ -1,7 +1,7 @@
 ---
 title: "GEO 不是一个人的事：外贸团队如何协作做 AI 搜索优化"
 description: "GEO 涉及内容、技术、营销三个维度，一个人做不动。这篇讲清楚外贸团队里谁负责什么、怎么协作、用什么流程，附一个可直接套用的周度工作节奏模板。"
-pubDatetime: 2026-06-23T10:00:00+08:00
+pubDatetime: 2026-06-19T10:00:00+08:00
 heroImage: ''
 tags: ["geo-basics", "team-workflow"]
 ---

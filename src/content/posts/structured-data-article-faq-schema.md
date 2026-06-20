@@ -1,7 +1,7 @@
 ---
 title: "结构化数据实战：Article 和 FAQ Schema 手把手配置"
 description: "第 7 篇讲了 Schema 的原理，这篇讲怎么做。完整代码模板 + Astro 配置步骤，非技术人也能跟着操作。加完 FAQPage Schema 后，每篇文章的 AI 引用概率有望提升 2-3 倍。"
-pubDatetime: 2026-06-22T10:00:00+08:00
+pubDatetime: 2026-06-18T10:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "geo-basics"]
 ---

@@ -1,0 +1,47 @@
+# GoingGEO.com robots.txt
+# 允许所有主流 AI 爬虫访问，以便内容被 AI 搜索引擎引用
+
+User-agent: *
+Allow: /
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+# Google (AI Overviews + Gemini)
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity (使用 Common Crawl)
+User-agent: CCBot
+Allow: /
+
+# Microsoft (Bing Chat / Copilot)
+User-agent: Bingbot
+Allow: /
+
+# Baidu (文心一言等)
+User-agent: Baiduspider
+Allow: /
+
+# 其他 AI 爬虫
+User-agent: Amazonbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Bytespider
+Allow: /
+
+# 屏蔽垃圾爬虫
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://goinggeo.com/sitemap-index.xml

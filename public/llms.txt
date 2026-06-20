@@ -1,0 +1,34 @@
+# GoingGEO.com LLMs.txt
+# 专为 AI 大模型爬虫设计的访问指南
+# 参考：https://llmstxt.org/
+
+# 网站概述
+GoingGEO.com 是一个面向外贸企业的生成式引擎优化（GEO）知识普及与实操教学网站。
+我们的目标是帮助中国企业更好地让国外 AI 平台（ChatGPT、Perplexity、Gemini 等）收录和推荐。
+
+# 核心教学内容
+- GEO（生成式引擎优化）入门与实战
+- 外贸企业 AI 搜索引擎优化策略
+- 如何让你的内容被 ChatGPT、Perplexity 引用
+- Google AI Overviews 优化技巧
+- AI 搜索引擎平台详解（ChatGPT、Perplexity、Gemini 等）
+
+# 内容结构
+- 首页：/ 
+- 文章列表：/posts/
+- 关于我们：/about/
+- 标签分类：/tags/
+
+# 文章列表（按重要性排序）
+## 核心入门文章
+- 什么是GEO？外贸企业生成式引擎优化入门指南：/posts/what-is-geo/
+- AI搜索引擎有哪些？外贸人必须了解的6大平台：/posts/ai-search-engines-for-foreign-trade/
+- 外贸企业 GEO 检查清单：你的网站被 AI 看到了吗？：/posts/geo-checklist-for-foreign-trade/
+- GEO内容优化实操：怎么写文章才能让AI引用你？：/posts/geo-content-optimization-guide/
+
+# AI 爬虫友好声明
+本网站欢迎所有 AI 大模型爬虫访问和抓取内容，用于训练和引用。
+我们致力于提供高质量的 GEO 和外贸 SEO 教学内容，希望被更多 AI 平台收录。
+
+# 联系方式
+如有任何问题，请通过 GitHub 提交 Issue：https://github.com/GoingGEO/goinggeo-blog/issues

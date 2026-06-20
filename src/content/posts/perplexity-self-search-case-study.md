@@ -1,7 +1,7 @@
 ---
 title: "我在 Perplexity 搜了自己，结果让人意外"
 description: "用自己网站的关键词在 Perplexity 实测，看看 AI 到底引用了谁、为什么引用他们而不引用我。一篇真实的 GEO 效果复盘，附 5 条改进建议。"
-pubDatetime: 2026-06-21T10:00:00+08:00
+pubDatetime: 2026-06-18T10:00:00+08:00
 heroImage: ''
 tags: ["geo-case-study"]
 ---
