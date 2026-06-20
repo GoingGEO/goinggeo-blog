@@ -24,6 +24,20 @@ const { Content } = await render(about);
   ogImage={about.data.ogImage}
   canonicalURL={about.data.canonicalURL}
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GoingGEO",
+      "url": "https://goinggeo.com",
+      "logo": "https://goinggeo.com/favicon.svg",
+      "description": "面向外贸企业的 GEO（生成式引擎优化）知识普及与实操教学网站",
+      "email": "info@im28.net",
+      "sameAs": [
+        "https://github.com/GoingGEO"
+      ]
+    }, null, 2)} />
+  </Fragment>
   <Header />
 
   <Breadcrumb />
