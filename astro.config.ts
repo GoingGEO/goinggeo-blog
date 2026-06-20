@@ -1,7 +1,6 @@
 import {
   defineConfig,
   envField,
-  fontProviders,
   svgoOptimizer,
 } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
@@ -58,19 +57,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  // Font config: Google Sans Code is used ONLY for OG image generation (satori).
-  // The website itself loads Noto Sans SC via Google Fonts <link> in Layout.astro
-  // for efficient CJK font delivery with unicode-range subsetting.
-  fonts: [
-    {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
-      provider: fontProviders.google(),
-      fallbacks: ["monospace"],
-      weights: [400, 700],
-      styles: ["normal"],
-    },
-  ],
+  // OG images are generated via SVG + sharp (no external font dependency).
   env: {
     schema: {
       PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({

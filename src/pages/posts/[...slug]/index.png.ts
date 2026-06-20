@@ -1,13 +1,35 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
-import { fontData, experimental_getFontFileURL } from "astro:assets";
-import satori from "satori";
 import sharp from "sharp";
-import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import { getPostSlug } from "@/utils/getPostPaths";
 import config from "@/config";
 
-const FONT_FAMILY = "Google Sans Code";
+function escapeXml(text: string): string {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function truncate(text: string, maxLen: number): string {
+  if (text.length <= maxLen) return text;
+  return text.slice(0, maxLen - 1) + "\u2026";
+}
+
+function buildPostOGSvg(title: string, author: string, siteTitle: string): string {
+  const displayTitle = truncate(title, 48);
+  return `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#fafafa"/>
+  <rect x="48" y="48" width="1104" height="534" rx="16" fill="#ffffff" stroke="#e2e2e2" stroke-width="2"/>
+  <rect x="48" y="48" width="8" height="534" rx="4" fill="#2563eb"/>
+  <text x="100" y="200" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="24" fill="#9ca3af">Article</text>
+  <text x="100" y="310" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="64" font-weight="700" fill="#1c1c1e">${escapeXml(displayTitle)}</text>
+  <text x="100" y="500" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" fill="#6b7280">by ${escapeXml(author)}</text>
+  <text x="100" y="540" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="600" fill="#2563eb">${escapeXml(siteTitle)}</text>
+</svg>`;
+}
 
 export async function getStaticPaths() {
   if (!config.features.dynamicOgImage) {
@@ -24,183 +46,15 @@ export async function getStaticPaths() {
   }));
 }
 
-export const GET: APIRoute = async ({ props, url }) => {
+export const GET: APIRoute = async ({ props }) => {
   if (!config.features.dynamicOgImage) {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  // Attempt to load fonts via the Astro fonts API.
-  const astroFonts = fontData["--font-google-sans-code"];
-  let fonts: { name: string; data: ArrayBuffer; weight: 400 | 700; style: "normal" }[] | null = null;
-
-  if (astroFonts && astroFonts.length > 0) {
-    const regularFontPath = getFontPathByWeight(astroFonts, 400);
-    const boldFontPath = getFontPathByWeight(astroFonts, 700);
-    if (regularFontPath && boldFontPath) {
-      try {
-        const [regularData, boldData] = await Promise.all([
-          fetch(experimental_getFontFileURL(regularFontPath, url)).then(res =>
-            res.arrayBuffer()
-          ),
-          fetch(experimental_getFontFileURL(boldFontPath, url)).then(res =>
-            res.arrayBuffer()
-          ),
-        ]);
-        fonts = [
-          { name: FONT_FAMILY, data: regularData, weight: 400 as const, style: "normal" as const },
-          { name: FONT_FAMILY, data: boldData, weight: 700 as const, style: "normal" as const },
-        ];
-      } catch {
-        fonts = null;
-      }
-    }
-  }
-
-  // Fallback: generate a simple OG image without satori.
-  if (!fonts) {
-    const title = String(props.data.title ?? config.site.title);
-    const svg = `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
-      <rect width="1200" height="630" fill="#fafafa"/>
-      <rect x="40" y="40" width="1120" height="550" rx="8" fill="#ffffff" stroke="#e5e5ea" stroke-width="2"/>
-      <text x="80" y="300" font-family="sans-serif" font-size="56" font-weight="bold" fill="#1c1c1e">${title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</text>
-      <text x="80" y="540" font-family="sans-serif" font-size="24" font-weight="bold" fill="#2563eb">${config.site.title}</text>
-    </svg>`;
-    const pngBuffer = await sharp(Buffer.from(svg)).png().toBuffer();
-    return new Response(new Uint8Array(pngBuffer), {
-      headers: { "Content-Type": "image/png" },
-    });
-  }
-
-  const svg = await satori(
-    {
-      type: "div",
-      props: {
-        style: {
-          background: "#fefbfb",
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontFamily: FONT_FAMILY,
-        },
-        children: [
-          {
-            type: "div",
-            props: {
-              style: {
-                position: "absolute",
-                top: "-1px",
-                right: "-1px",
-                border: "4px solid #000",
-                background: "#ecebeb",
-                opacity: "0.9",
-                borderRadius: "4px",
-                display: "flex",
-                justifyContent: "center",
-                margin: "2.5rem",
-                width: "88%",
-                height: "80%",
-              },
-            },
-          },
-          {
-            type: "div",
-            props: {
-              style: {
-                border: "4px solid #000",
-                background: "#fefbfb",
-                borderRadius: "4px",
-                display: "flex",
-                justifyContent: "center",
-                margin: "2rem",
-                width: "88%",
-                height: "80%",
-              },
-              children: {
-                type: "div",
-                props: {
-                  style: {
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-between",
-                    margin: "20px",
-                    width: "90%",
-                    height: "90%",
-                  },
-                  children: [
-                    {
-                      type: "p",
-                      props: {
-                        style: {
-                          fontSize: 72,
-                          fontWeight: "bold",
-                          maxHeight: "84%",
-                          overflow: "hidden",
-                        },
-                        children: props.data.title,
-                      },
-                    },
-                    {
-                      type: "div",
-                      props: {
-                        style: {
-                          display: "flex",
-                          justifyContent: "space-between",
-                          width: "100%",
-                          marginBottom: "8px",
-                          fontSize: 28,
-                        },
-                        children: [
-                          {
-                            type: "span",
-                            props: {
-                              children: [
-                                "by ",
-                                {
-                                  type: "span",
-                                  props: {
-                                    style: { color: "transparent" },
-                                    children: '"',
-                                  },
-                                },
-                                {
-                                  type: "span",
-                                  props: {
-                                    style: {
-                                      overflow: "hidden",
-                                      fontWeight: "bold",
-                                    },
-                                    children: props.data.author,
-                                  },
-                                },
-                              ],
-                            },
-                          },
-                          {
-                            type: "span",
-                            props: {
-                              style: { overflow: "hidden", fontWeight: "bold" },
-                              children: config.site.title,
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  ],
-                },
-              },
-            },
-          },
-        ],
-      },
-    },
-    {
-      width: 1200,
-      height: 630,
-      embedFont: true,
-      fonts,
-    }
+  const svg = buildPostOGSvg(
+    props.data.title ?? config.site.title,
+    props.data.author ?? "",
+    config.site.title
   );
 
   const pngBuffer = await sharp(Buffer.from(svg)).png().toBuffer();
