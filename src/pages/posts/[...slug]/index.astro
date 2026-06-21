@@ -119,12 +119,16 @@ const ogImage = ogImageUrl
       {title}
     </h1>
 
-    <div class="my-2 flex items-center gap-2">
+    <div class="my-2 flex items-center gap-2 flex-wrap">
       <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
+      <span aria-hidden="true" class="text-muted-foreground">|</span>
+      <span class="text-sm text-muted-foreground">
+        作者：{post.data.author ?? config.site.author}
+      </span>
       <span
         aria-hidden="true"
         class:list={[
-          "text-muted-foreground max-sm:hidden",
+          "text-muted-foreground",
           { hidden: !config.features.editPost?.enabled || hideEditPost },
         ]}
       >

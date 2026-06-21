@@ -5,7 +5,7 @@ export default defineAstroPaperConfig({
   url: "https://goinggeo.com",
   title: "GoingGEO.com",
   description: "生成式引擎优化（GEO）知识普及与实操教学",
-  author: "GoingGEO.com",
+  author: "GoingGEO 团队",
   profile: "https://goinggeo.com/about/",
   ogImage: "default-og.jpg",
   lang: "zh-CN",
