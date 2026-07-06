@@ -14,12 +14,12 @@ tags: ["geo-basics", "ai-platforms"]
 
 ## 1. Google AI Overviews
 
-**它是什么：** Google在搜索结果顶部直接生成的AI摘要。用户搜一个问题，Google不再只是给你10个蓝色链接，而是自己"读"完网页，写一段总结。
+**它是什么：** Google在搜索结果顶部直接生成的AI摘要。用户搜一个问题，Google不再只是给你10个蓝色链接，而是自己“读”完网页，写一段总结。
 
 **对外贸企业的意义：** 最大。Google仍然是全球搜索入口，没有之一。你的海外客户大概率还是先搜Google，只是结果页变了——以前他们会点进你的网站，现在可能看完AI摘要就走了。
 
 **优化要点：**
-- 内容要有清晰的**定义性语句**，AI Overviews偏好"XXX是……"这种结构
+- 内容要有清晰的**定义性语句**，AI Overviews偏好“XXX是……”这种结构
 - 确保网站已经被Google收录，技术SEO基础要过关
 - FAQ结构的内容更容易被抓取
 
@@ -27,7 +27,7 @@ tags: ["geo-basics", "ai-platforms"]
 
 **它是什么：** OpenAI的ChatGPT，2024年底加入了实时搜索功能，能联网查资料再回答。越来越多用户直接问ChatGPT，不再打开Google。
 
-**对外贸企业的意义：** 增长最快的入口。很多海外采购商已经习惯在ChatGPT里问："Find me a reliable LED supplier in Shenzhen with CE certification."
+**对外贸企业的意义：** 增长最快的入口。很多海外采购商已经习惯在ChatGPT里问：“Find me a reliable LED supplier in Shenzhen with CE certification.”
 
 **优化要点：**
 - ChatGPT搜索依赖Bing索引，所以**Bing SEO也要做**（很多人忽略这点）
@@ -36,13 +36,13 @@ tags: ["geo-basics", "ai-platforms"]
 
 ## 3. Perplexity
 
-**它是什么：** 专门做AI搜索的产品，比ChatGPT更"像搜索引擎"。它会列出引用来源，用户能看到信息从哪来。
+**它是什么：** 专门做AI搜索的产品，比ChatGPT更“像搜索引擎”。它会列出引用来源，用户能看到信息从哪来。
 
 **对外贸企业的意义：** 高度相关。Perplexity的用户多为研究人员和采购决策者，正好是外贸企业想触达的人群。
 
 **优化要点：**
 - Perplexity**一定会引用FAQ结构**的内容，这是它最核心的信息抓取方式
-- 引用来源会直接展示给用户，所以你的内容越像"权威参考"越好
+- 引用来源会直接展示给用户，所以你的内容越像“权威参考”越好
 - 结构化数据（Schema Markup）要做好，Perplexity会优先抓取标记清晰的内容
 
 ## 4. Microsoft Copilot（Bing Chat）
@@ -58,13 +58,13 @@ tags: ["geo-basics", "ai-platforms"]
 
 ## 5. Claude（Anthropic）
 
-**它是什么：** Anthropic推出的AI助手，以"安全"和"长文本理解"著称。虽然目前没有独立的搜索产品，但已经可以通过第三方工具联网。
+**它是什么：** Anthropic推出的AI助手，以“安全”和“长文本理解”著称。虽然目前没有独立的搜索产品，但已经可以通过第三方工具联网。
 
 **对外贸企业的意义：** 上升期。Claude在学术和技术领域口碑很好，如果你的客户是工程师或技术人员，Claude的引用就很关键。
 
 **优化要点：**
 - Claude偏好**逻辑清晰、论证充分**的长内容
-- 它对内容的"可信度"评估比其他AI更严格——空话套话会被忽略
+- 它对内容的“可信度”评估比其他AI更严格——空话套话会被忽略
 - 技术类文章、白皮书、深度分析最容易被引用
 
 ## 6. Grok（xAI）
@@ -75,7 +75,7 @@ tags: ["geo-basics", "ai-platforms"]
 
 **优化要点：**
 - 在X平台保持活跃，发布行业见解
-- 内容要"有观点"，Grok偏好有态度的分析而非中性的信息堆砌
+- 内容要“有观点”，Grok偏好有态度的分析而非中性的信息堆砌
 - 实时性很重要，紧跟行业趋势的内容更容易被引用
 
 ---
