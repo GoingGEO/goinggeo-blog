@@ -56,7 +56,7 @@ Perplexity 是目前唯一公开显示引用来源的平台，天然适合做关
 
 让 ChatGPT 帮你站在采购商角度思考：
 
-> I'm a European purchasing manager looking for a reliable [你的产品] supplier in China. What questions would I ask in ChatGPT to find suppliers?
+> “I'm a European purchasing manager looking for a reliable [你的产品] supplier in China. What questions would I ask in ChatGPT to find suppliers?”
 
 ChatGPT 会列出 5-10 个采购商真实会问的问题。这些问题就是你的**内容地图**——每个问题写成一篇文章，覆盖采购商的完整决策路径。
 
