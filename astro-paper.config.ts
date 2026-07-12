@@ -23,13 +23,12 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
+      enabled: false,
       url: "https://github.com/GoingGEO/goinggeo-blog/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/GoingGEO" },
     { name: "mail",     url: "mailto:Info@Im28.net" },
   ],
   shareLinks: [
