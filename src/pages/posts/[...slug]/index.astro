@@ -72,7 +72,12 @@ const {
   hideEditPost,
 } = post.data;
 
-const { Content } = await render(post);
+const { Content, remarkPluginFrontmatter } = await render(post);
+
+type FaqItem = { question: string; answer: string };
+const faq = (remarkPluginFrontmatter as Record<string, any>)?.faq as
+  | FaqItem[]
+  | undefined;
 
 let ogImageUrl: string | undefined;
 
@@ -102,6 +107,7 @@ const ogImage = ogImageUrl
   canonicalURL={canonicalURL}
   pubDatetime={pubDatetime}
   modDatetime={modDatetime}
+  faq={faq}
 >
   <Header />
 

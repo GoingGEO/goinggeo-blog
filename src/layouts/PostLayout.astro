@@ -9,12 +9,20 @@ type Props = {
   canonicalURL?: string;
   pubDatetime?: Date;
   modDatetime?: Date | null;
+  faq?: { question: string; answer: string }[];
 };
 
 const { site } = config;
 
-const { title, description, ogImage, canonicalURL, pubDatetime, modDatetime } =
-  Astro.props;
+const {
+  title,
+  description,
+  ogImage,
+  canonicalURL,
+  pubDatetime,
+  modDatetime,
+  faq,
+} = Astro.props;
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -31,6 +39,22 @@ const structuredData = {
     },
   ],
 };
+
+// Build a FAQPage structured-data block from the extracted FAQ pairs.
+const faqSchema = faq?.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map((q) => ({
+        "@type": "Question",
+        name: q.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: q.answer,
+        },
+      })),
+    }
+  : null;
 ---
 
 <Layout {title} {description} {ogImage} {canonicalURL}>
@@ -60,6 +84,16 @@ const structuredData = {
       is:inline
       set:html={JSON.stringify(structuredData)}
     />
+
+    {
+      faqSchema && (
+        <script
+          type="application/ld+json"
+          is:inline
+          set:html={JSON.stringify(faqSchema)}
+        />
+      )
+    }
   </Fragment>
 
   <slot />

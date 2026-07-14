@@ -16,6 +16,7 @@ import {
   transformerNotationWordHighlight,
 } from "@shikijs/transformers";
 import { transformerFileName } from "./src/utils/transformers/fileName";
+import { remarkExtractFaq } from "./src/utils/remark-extract-faq";
 import config from "./astro-paper.config";
 
 export default defineConfig({
@@ -39,6 +40,7 @@ export default defineConfig({
       remarkPlugins: [
         remarkToc,
         [remarkCollapse, { test: "Table of contents" }],
+        remarkExtractFaq,
       ],
       rehypePlugins: [rehypeCallouts],
     }),

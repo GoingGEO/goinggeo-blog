@@ -257,26 +257,34 @@ Claude 使用 **Brave Search** 作为网页搜索后端——86.7% 的引用 URL
 
 ## FAQ
 
-**Q：Copilot 和 ChatGPT 都用 Bing，为什么优先级不同？**  
+**Q：Copilot 和 ChatGPT 都用 Bing，为什么优先级不同？**
+
 A：Copilot 的 3300 万用户中企业用户占比高（70% 财富 500 强部署），但 Copilot 的引用逻辑和 ChatGPT 类似——都从 Bing 索引取内容。你为 ChatGPT 做的优化（Bing SEO + FAQ 格式 + 权威引用）会自动覆盖 Copilot，所以不需要单独投入精力。
 
-**Q：Gemini 和 Google AI Overviews 是同一个东西吗？**  
+**Q：Gemini 和 Google AI Overviews 是同一个东西吗？**
+
 A：不是，但底层引擎相同。Gemini 是 Google 的 AI 模型，Google AI Overviews 是搜索结果页的 AI 摘要功能。AI Overviews 由 Gemini 驱动，所以优化 AI Overviews 等于优化 Gemini 的搜索引用。不需要把 Gemini 独立聊天端当单独平台来优化。
 
-**Q：我们公司没有 X/Twitter 账号，Grok 优化是不是必须做？**  
+**Q：我们公司没有 X/Twitter 账号，Grok 优化是不是必须做？**
+
 A：不是。Grok 45% 的引用来自 X 帖子，如果你在 X 上没有存在感，你的网站内容被 Grok 引用的概率只有 9%（品牌/公司网站类）。从零开始做 X 运营的 ROI 在外贸场景下不如直接做网站内容。除非你的行业在 X 上有活跃讨论（比如科技、加密货币），否则跳过。
 
-**Q：Claude 用 Brave Search，我是不是需要专门为 Brave 做优化？**  
+**Q：Claude 用 Brave Search，我是不是需要专门为 Brave 做优化？**
+
 A：不需要单独做。Brave 的排名因素和 Google 类似（内容质量、外链、技术 SEO），做好 Google SEO 基本等于做好 Brave SEO。唯一需要做的是花 5 分钟在 search.brave.com 搜一下你的品牌名，确认能搜到。搜不到就去 Brave Webmaster Tools 提交网站。
 
-**Q：如果精力只够做一个平台，选哪个？**  
+**Q：如果精力只够做一个平台，选哪个？**
+
 A：选 ChatGPT。原因：用户量最大（8 亿周活）、搜索依赖 Bing 索引（做好 Bing SEO 同时覆盖 Copilot 和 Perplexity）、引用逻辑最透明。但理想情况下第一梯队的三个平台应该同时做，因为它们的工作有很大重叠——写一篇 FAQ 格式的权威文章，三个平台都会受益。
 
-**Q：Perplexity 用户量比 Copilot 少（2200 万 vs 3300 万），为什么优先级更高？**  
+**Q：Perplexity 用户量比 Copilot 少（2200 万 vs 3300 万），为什么优先级更高？**
+
 A：因为 Perplexity 的优化可操作性最高——它一定会引用 FAQ 格式内容、一定会展示引用来源、优化效果可以直接验证。Copilot 虽然用户多，但你无法直接控制它是否引用你（完全依赖 Bing 索引），可操作性低。优先级不只看用户量，还要看“你的努力能不能转化为被引用”。
 
-**Q：这些平台的数据会变化很快吗？我需要定期重新评估优先级吗？**  
+**Q：这些平台的数据会变化很快吗？我需要定期重新评估优先级吗？**
+
 A：平台市场份额和用户习惯每 6 个月会有明显变化。建议每半年做一次快速评估：用每个平台搜 5 个核心关键词，看引用情况有没有大的变化。但核心策略不会变——Google + Bing 仍然是底层索引，做好这两个的 SEO 就能覆盖大部分 AI 平台。
 
-**Q：有没有什么平台是专门针对中国市场的 AI 搜索？需要优化吗？**  
+**Q：有没有什么平台是专门针对中国市场的 AI 搜索？需要优化吗？**
+
 A：国内有文心一言、Kimi、智谱清言等 AI 搜索平台，但 GoingGEO 的目标受众是做外贸的企业——你的采购商在海外，用的是 ChatGPT、Google、Perplexity。除非你的业务也需要触达国内采购商（比如找国内代工厂），否则不需要专门优化国内 AI 平台。

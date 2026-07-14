@@ -96,7 +96,7 @@ injectFAQSchema();
 
 这段代码做的事：
 1. 找到文章里的「常见问题」标题
-2. 提取每个 `**Q：**` 和 `**A：**` 的内容
+2. 提取每个 `**Q：**` 和 `A：` 的内容
 3. 生成 FAQPage Schema 的 JSON-LD
 4. 注入到页面 `<head>` 里
 
@@ -152,16 +152,21 @@ injectFAQSchema();
 ## 常见问题
 
 **Q：加了 FAQPage Schema 后多久能看到效果？**
+
 A：Schema 标记在 AI 搜索引擎下次索引你的页面时生效，通常需要 1-2 周。Google 的索引更新更快，通常 3-5 天。Perplexity 和 ChatGPT 的索引更新稍慢，需要 2-4 周。
 
 **Q：我的文章没有 FAQ 区块怎么办？**
+
 A：那就不会有 FAQPage Schema，只有 BlogPosting Schema。这是正常的——不是每篇文章都需要 FAQ。但建议尽量在每篇文章末尾加 3-5 个 FAQ，因为这是 AI 引用率最高的内容格式。
 
 **Q：FAQPage Schema 里的答案需要和页面上的文字完全一致吗？**
+
 A：是的，必须一致。Schema 标记的内容必须和页面可见内容匹配，否则会被搜索引擎视为操纵行为。上面的代码是从页面 DOM 中自动提取的，所以天然一致——你不需要担心这个问题。
 
 **Q：Organization Schema 只加在 About 页面够吗？**
+
 A：够用。Organization Schema 不需要每个页面都加。加在 About 页面或首页，搜索引擎和 AI 会通过站点范围内的爬取找到它。如果你想更保险，也可以在首页 `index.astro` 里也加一份。
 
 **Q：代码不太懂，有没有更简单的方法？**
+
 A：如果你不想改代码，可以先用 Google Tag Manager 来注入 Schema。但 Astro 项目里直接改代码是更干净、更可靠的方式——不依赖第三方工具，加载速度更快，也不容易被广告拦截器屏蔽。
