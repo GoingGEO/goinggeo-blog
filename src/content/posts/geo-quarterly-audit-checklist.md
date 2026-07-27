@@ -18,7 +18,7 @@ GEO 季度审计，指每 3 个月对内容新鲜度、技术健康、AI 引用�
 4. **AI 引用变化**：对比上季度 Perplexity / GSC AI Overviews 数据，看哪些内容掉了、哪些涨了（[GEO 效果追踪](/posts/geo-tracking-tools-guide/)）。
 5. **竞品动态**：重跑 [AI 竞品调研](/posts/ai-search-competitor-research/)，看对手有没有新动作。
 6. **技术基础**：索引覆盖率、robots、死链，确认没新障碍。
-7. **关键词覆盖**：对照目标主题集群，找还没覆盖的坑位（[内容矩阵](/posts/) 后续）。
+7. **关键词覆盖**：对照目标主题集群，找还没覆盖的坑位（[内容矩阵](/posts/geo-content-matrix-guide/) 后续）。
 8. **外链 / 提及增长**：检查有没有新的可信来源提及你（[外链建设](/posts/backlink-building-geo-era/)）。
 9. **Core Web Vitals**：用 GSC 看 LCP / INP / CLS 是否仍达标（[Core Web Vitals](/posts/core-web-vitals-geo-impact/)）。
 10. **llms.txt 更新**：新增重要页面后，同步更新 llms.txt 的核心内容列表（[llms.txt 指南](/posts/llms-txt-robots-txt-guide/)）。

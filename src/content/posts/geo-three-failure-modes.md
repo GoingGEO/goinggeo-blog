@@ -37,7 +37,7 @@ GEO 失败模式，指内容未被 AI 有效引用背后的系统性原因，而
 - 我的文章有清晰结构 + FAQ + Schema 吗？
 - 我的站点被正常索引了吗（速度 / Sitemap / robots）？
 
-三关都过，GEO 才算走在正路上。更多诊断框架见 [GEO 季度审计清单](/posts/)（后续）。
+三关都过，GEO 才算走在正路上。更多诊断框架见 [GEO 季度审计清单](/posts/geo-quarterly-audit-checklist/)（后续）。
 
 **Q：怎么判断关键词有没有真实搜索需求？**
 

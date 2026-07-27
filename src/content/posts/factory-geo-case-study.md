@@ -44,7 +44,7 @@ tags: ["case-study", "foreign-trade"]
 
 半年后，这家工厂在目标品类的 AI 可见度从“零”到“稳定出现”，自然询盘中开始出现“在 ChatGPT / Perplexity 里找到你们”的明确来源。它不是爆单神话，而是“持续做对的事，半年见到真实回报”的样板。
 
-想看更系统的复盘方法，参考 [GEO 效果追踪](/posts/geo-tracking-tools-guide/) 和 [6 个月运营复盘专文](/posts/)（后续）。
+想看更系统的复盘方法，参考 [GEO 效果追踪](/posts/geo-tracking-tools-guide/) 和 [6 个月运营复盘专文](/posts/goinggeo-6-month-retrospective/)（后续）。
 
 **Q：这个案例能直接照抄吗？**
 
