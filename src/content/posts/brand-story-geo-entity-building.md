@@ -1,7 +1,7 @@
 ---
 title: "外贸企业品牌故事如何写才能让 AI 认识你：品牌实体建设的三个支柱"
 description: "About 页面大多是废话——AI引擎无法从中提取你是谁、做什么、是否可信。本文讲品牌实体建设的核心逻辑：一致的品牌名称、清晰的业务描述、可验证的经营信息，通过品牌故事+外部提及+Schema标记三位一体建立AI可识别的品牌身份。"
-pubDatetime: 2026-08-03T09:00:00+08:00
+pubDatetime: 2026-07-28T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "technical-seo"]
 ---
