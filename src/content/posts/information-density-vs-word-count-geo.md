@@ -1,7 +1,7 @@
 ---
 title: "GEO 文章要写多长？信息密度比字数更重要的 3 个理由"
 description: "文章越长越好是 SEO 时代的遗留观念。AI 引擎不看字数，它看的是每 100 字能提取多少有用信息。本文讲信息密度的 3 个衡量指标、不同文章类型的合理长度区间，以及提高信息密度的 3 个实操方法。"
-pubDatetime: 2026-08-05T09:00:00+08:00
+pubDatetime: 2026-07-29T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics", "foreign-trade"]
 ---
