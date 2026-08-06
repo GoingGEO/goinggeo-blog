@@ -1,7 +1,7 @@
 ---
 title: "数据引用让内容可信度倍增——外贸 GEO 数据写作指南"
 description: "带数据的内容被 AI 引用的概率显著更高。本文讲外贸人可以用哪些免费数据来源（海关数据、行业报告、平台公开数据），数据写作的正确姿势（标注来源、说明时效），以及没有数据时的替代策略（引用权威机构观点）。"
-pubDatetime: 2026-08-07T09:00:00+08:00
+pubDatetime: 2026-08-06T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics", "foreign-trade"]
 ---
