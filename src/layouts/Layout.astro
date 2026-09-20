@@ -23,6 +23,41 @@ const {
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.site ?? Astro.url);
+
+// 全站级 Schema：Organization + WebSite (含 SearchAction)
+// 让 AI 引擎与搜索引擎能识别站点实体、拥有搜索入口元数据
+const orgLogoURL = new URL("default-og.jpg", site.url).href;
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${site.url}/#organization`,
+      name: "GoingGEO",
+      url: site.url,
+      logo: orgLogoURL,
+      description: site.description,
+      email: "Info@im28.net",
+      sameAs: ["https://github.com/GoingGEO"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${site.url}/#website`,
+      url: site.url,
+      name: site.title,
+      inLanguage: site.lang,
+      publisher: { "@id": `${site.url}/#organization` },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${site.url}/search/?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
+};
 const rssHref = getRelativeLocaleUrl(
   Astro.currentLocale ?? config.site.lang,
   "rss.xml"
@@ -83,6 +118,13 @@ const rssHref = getRelativeLocaleUrl(
 
     <!-- Filled at runtime by theme.ts to match the current background colour -->
     <meta name="theme-color" content="" />
+
+    <!-- 全站级 JSON-LD：Organization + WebSite (含 SearchAction) -->
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JSON.stringify(orgSchema)}
+    />
 
     <!-- Extra head content injected by child layouts (e.g. JSON-LD, article meta) -->
     <slot name="head" />
