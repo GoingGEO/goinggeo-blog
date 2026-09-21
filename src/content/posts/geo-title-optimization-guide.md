@@ -2,6 +2,7 @@
 title: "外贸GEO标题优化指南：标题写法直接决定 AI 是否引用你"
 description: "AI 读标题的方式和人不同——它在判断'这篇文章能回答什么问题'。本文对比问句型、数字型、对比型标题的外贸GEO效果差异，给出 10 个适合外贸博客的高效标题公式，附 5 组弱标题→强标题的改写练习。"
 pubDatetime: 2026-07-06T20:00:00+08:00
+modDatetime: 2026-07-08T06:40:27+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics", "foreign-trade"]
 ---

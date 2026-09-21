@@ -2,6 +2,7 @@
 title: "AI 引用会消失吗：外贸GEO内容稳定性指南"
 description: "今天被 Perplexity 引用，下周就没了——AI 引用消失是真实存在的现象。本文讲影响引用稳定性的 3 个核心因素、常青内容的特殊价值、以及维持引用稳定的 3 个具体操作。"
 pubDatetime: 2026-07-14T00:00:00+08:00
+modDatetime: 2026-07-14T07:03:39+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics", "technical-seo"]
 ---

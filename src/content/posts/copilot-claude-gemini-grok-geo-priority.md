@@ -2,6 +2,7 @@
 title: "Copilot、Claude、Gemini、Grok：外贸人该为哪些 AI 平台做 GEO？"
 description: "ChatGPT 和 Perplexity 之外，Microsoft Copilot、Claude、Gemini、Grok 值不值得专门优化？本文用三个维度——市场份额、外贸用户渗透率、优化可操作性——给六个平台打分排序，附精力分配建议和每个平台的具体优化要点。"
 pubDatetime: 2026-07-01T09:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["ai-platforms", "geo-basics", "content-strategy"]
 ---

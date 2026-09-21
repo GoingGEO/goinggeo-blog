@@ -2,6 +2,7 @@
 title: "FAQ 结构为什么是 GEO 的杀手锏？"
 description: "FAQ 格式的 AI 引用率是普通段落的 2.2 倍。不是因为 FAQ 更好读，而是因为它的结构天然就是 AI 想引用的样子——每个 Q&A 本身就是完整的知识胶囊。"
 pubDatetime: 2026-06-17T10:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---

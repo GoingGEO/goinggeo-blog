@@ -2,6 +2,7 @@
 title: "GEO内容优化实操：怎么写文章才能让AI引用你？"
 description: "想让 ChatGPT、Perplexity 引用你的文章？关键不是写得多，而是写得对。5 个写作法则 + 改写前后对比，外贸人看完就能用。"
 pubDatetime: 2026-06-17T10:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---

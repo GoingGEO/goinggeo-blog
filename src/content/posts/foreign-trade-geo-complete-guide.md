@@ -2,6 +2,7 @@
 title: "外贸GEO完全指南：从概念到实操的完整路线图"
 description: "外贸GEO是指面向生成式AI搜索引擎的内容优化策略，帮助外贸企业在 ChatGPT、Perplexity、Google AI Overviews 中被海外采购商找到并引用。本文系统梳理外贸GEO的概念框架、核心原则、实操步骤、工具选择和效果追踪方法，是外贸企业布局 AI 搜索获客的起点。"
 pubDatetime: 2026-07-04T20:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "foreign-trade", "content-strategy"]
 ---

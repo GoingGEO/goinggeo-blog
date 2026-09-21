@@ -2,6 +2,7 @@
 title: "外贸GEO可见性审计：AI 搜索怎么看你的网站"
 description: "AI 可见性是指 AI 搜索引擎能读取并理解你网站内容的程度。AI 爬虫和传统搜索爬虫处理页面的方式不同——更重视纯文本，对 JavaScript 渲染、PDF、图片文字支持有限。本文列出外贸网站最常见的 6 个内容盲区，附 10 项可见性自检清单和修复优先级。"
 pubDatetime: 2026-07-10T09:00:00+08:00
+modDatetime: 2026-07-11T18:01:02+08:00
 heroImage: ''
 tags: ["technical-seo", "ai-platforms", "foreign-trade"]
 ---

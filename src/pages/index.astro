@@ -67,6 +67,103 @@ const homePath = getRelativeLocaleUrl(locale, "");
       }
     </section>
 
+    <section
+      id="topic-clusters"
+      class="border-border border-b pt-10 pb-10"
+      aria-label="主题导航"
+    >
+      <h2 class="text-2xl font-semibold tracking-wide mb-6">主题导航</h2>
+      <p class="mb-6 text-sm text-muted-foreground">
+        79 篇文章按主题分成 6 个集群。选你关心的方向开始，或者直接看下方最新内容。
+      </p>
+      <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 cluster-card-list">
+        <li>
+          <a
+            href="/tags/geo-basics/"
+            class="cluster-card group"
+            data-cluster="geo-basics"
+          >
+            <span class="cluster-icon" aria-hidden="true">01</span>
+            <span class="cluster-title">GEO 入门</span>
+            <span class="cluster-desc">
+              什么是 GEO、GEO 与 SEO 的区别、为什么外贸企业必须做 GEO。从这里建立完整认知。
+            </span>
+            <span class="cluster-tag">geo-basics</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/tags/ai-platforms/"
+            class="cluster-card group"
+            data-cluster="ai-platforms"
+          >
+            <span class="cluster-icon" aria-hidden="true">02</span>
+            <span class="cluster-title">AI 平台</span>
+            <span class="cluster-desc">
+              ChatGPT、Perplexity、Gemini、Grok、Claude、Copilot 的引用逻辑、爬虫规则与内容偏好。
+            </span>
+            <span class="cluster-tag">ai-platforms</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/tags/foreign-trade/"
+            class="cluster-card group"
+            data-cluster="foreign-trade"
+          >
+            <span class="cluster-icon" aria-hidden="true">03</span>
+            <span class="cluster-title">外贸落地</span>
+            <span class="cluster-desc">
+              产品页、询盘页、品牌故事、关于页的 GEO 实操——把 AI 流量引到外贸转化漏斗。
+            </span>
+            <span class="cluster-tag">foreign-trade</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/tags/technical-seo/"
+            class="cluster-card group"
+            data-cluster="technical-seo"
+          >
+            <span class="cluster-icon" aria-hidden="true">04</span>
+            <span class="cluster-title">技术 GEO</span>
+            <span class="cluster-desc">
+              Schema.org、FAQPage、llms.txt、robots.txt、内链、sitemap——可被 AI 引擎识别的技术信号。
+            </span>
+            <span class="cluster-tag">technical-seo</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/tags/content-strategy/"
+            class="cluster-card group"
+            data-cluster="content-strategy"
+          >
+            <span class="cluster-icon" aria-hidden="true">05</span>
+            <span class="cluster-title">内容策略</span>
+            <span class="cluster-desc">
+              E-E-A-T、FAQ 写法、信息密度、写作规范——内容被 AI 引用概率 2.4 倍的核心要素。
+            </span>
+            <span class="cluster-tag">content-strategy</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/tags/case-study/"
+            class="cluster-card group"
+            data-cluster="case-study"
+          >
+            <span class="cluster-icon" aria-hidden="true">06</span>
+            <span class="cluster-title">GEO 进阶</span>
+            <span class="cluster-desc">
+              实战案例、行业策略、季度复盘、AI 引用监测——把零散操作变成可复制的运营体系。
+            </span>
+            <span class="cluster-tag">case-study</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
     {
       featuredPosts.length > 0 && (
         <section
@@ -123,3 +220,107 @@ const homePath = getRelativeLocaleUrl(locale, "");
     }
   });
 </script>
+
+<style>
+  /* ===== 主题集群卡片 ===== */
+  .cluster-card-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cluster-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 1.25rem 1.25rem;
+    background: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--foreground);
+    text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    min-height: 180px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cluster-card::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--accent);
+    opacity: 0.25;
+    transition: opacity 0.2s;
+  }
+
+  .cluster-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px -10px color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+
+  .cluster-card:hover::before {
+    opacity: 1;
+  }
+
+  .cluster-card:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .cluster-icon {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    opacity: 0.8;
+  }
+
+  .cluster-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--foreground);
+    line-height: 1.3;
+  }
+
+  .cluster-card:hover .cluster-title {
+    color: var(--accent);
+  }
+
+  .cluster-desc {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--muted-foreground);
+    flex: 1;
+  }
+
+  .cluster-tag {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.15rem 0.6rem;
+    font-size: 0.7rem;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+    border-radius: 4px;
+    align-self: flex-start;
+  }
+
+  /* 三态主题下卡片细节微调 */
+  [data-theme="sepia"] .cluster-card {
+    box-shadow: 0 1px 2px color-mix(in srgb, var(--foreground) 5%, transparent);
+  }
+
+  [data-theme="dark"] .cluster-card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  [data-theme="dark"] .cluster-card:hover {
+    box-shadow: 0 12px 28px -10px color-mix(in srgb, var(--accent) 40%, transparent);
+  }
+</style>

@@ -2,6 +2,7 @@
 title: "供应链故事是外贸GEO最被低估的内容类型——工厂后台如何变成AI引用的富矿"
 description: "工厂参观、工艺流程、质检现场——这些\u201c后台\u201d内容竞争对手拿不到，AI搜索引擎却非常喜欢。本文讲哪4类供应链故事最有GEO价值，如何把日常运营场景转化为可发布的内容，以及内容收集、拍照和发布节奏的实操建议。"
 pubDatetime: 2026-07-23T21:00:00+08:00
+modDatetime: 2026-07-23T21:52:54+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---

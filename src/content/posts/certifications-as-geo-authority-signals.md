@@ -2,6 +2,7 @@
 title: "CE、ISO、FDA认证怎么做外贸GEO：把证书变成权威信号"
 description: "认证是外贸企业的硬资产，能转化为 GEO 权威信号的前提是内容化——把证书图片写成一篇文章。本文讲认证信息的内容化写法、认证词专题文章策略、以及认证与 Organization Schema 的配合方法。"
 pubDatetime: 2026-07-16T00:00:00+08:00
+modDatetime: 2026-07-16T06:58:25+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "technical-seo"]
 ---

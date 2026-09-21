@@ -2,6 +2,7 @@
 title: "GEO 有三个意思：一个缩写，三个完全不同的世界"
 description: "GEO 可以是地理（Geographic）、地球观测组织（Group on Earth Observations）、生成式引擎优化（Generative Engine Optimization）。三个领域共用一个缩写，外贸人、科研人员和营销人各说各的——这篇文章帮你一次分清。"
 pubDatetime: 2026-06-20T09:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics"]
 ---

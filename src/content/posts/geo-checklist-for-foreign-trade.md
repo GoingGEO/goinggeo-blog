@@ -2,6 +2,7 @@
 title: "外贸GEO检查清单：你的网站被 AI 看到了吗？"
 description: "外贸GEO效果自查清单，一步步检查你的网站在 Google AI Overviews、Perplexity、ChatGPT 搜索结果里有没有被引用。覆盖基础收录、AI引用测试、内容结构、技术基础、品牌提及 5 大维度。"
 pubDatetime: 2026-06-16T10:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "geo-checklist", "foreign-trade"]
 ---

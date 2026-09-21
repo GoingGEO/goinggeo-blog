@@ -2,6 +2,7 @@
 title: "外贸GEO和SEO有什么区别：完整对比指南"
 description: "外贸GEO（生成式引擎优化）和外贸SEO（搜索引擎优化）不是替代关系，而是互补关系。本文从优化目标、排名因素、内容格式、成功指标等 6 个维度系统对比两者的差异，并给出外贸企业如何在有限资源下同时做好两件事的实操建议。"
 pubDatetime: 2026-06-26T09:00:00+08:00
+modDatetime: 2026-07-06T20:46:38+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy", "foreign-trade"]
 ---

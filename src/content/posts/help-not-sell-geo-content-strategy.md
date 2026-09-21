@@ -2,6 +2,7 @@
 title: "用内容帮助客户做采购决策，而不是硬推销——外贸 GEO 的写作思维转型"
 description: "AI 引擎偏好帮助型内容而非推销型内容。本文讲采购决策链四个阶段各需要什么内容类型、如何把一篇典型的推销式产品页改写成决策辅助内容，以及帮助和推销在写法上的具体区别——附 3 组改写前后对比示例。"
 pubDatetime: 2026-07-25T15:00:00+08:00
+modDatetime: 2026-07-25T22:33:32+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---

@@ -2,6 +2,7 @@
 title: "客户常问的问题是最好的外贸GEO素材：问题变文章的转化方法"
 description: "业务员每天在 WhatsApp 和邮件里回答的客户问题，是 GEO 内容的最高效来源。本文讲如何从聊天记录里提炼问题、哪类问题最有引用价值、以及一个可复用的问题→文章转化模板。"
 pubDatetime: 2026-07-18T08:00:00+08:00
+modDatetime: 2026-07-18T08:15:28+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---

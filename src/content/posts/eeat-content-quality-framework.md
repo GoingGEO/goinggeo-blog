@@ -2,6 +2,7 @@
 title: "E-E-A-T 是什么？为什么它是 GEO 时代最重要的内容标准"
 description: "E-E-A-T（经验、专业知识、权威性、可信度）是 Google 和 AI 引擎共同认可的内容质量评估框架。本文用外贸场景逐个解释四个维度的含义，给出可操作的体现方式——作者署名、经验案例、数据引用、来源标注，并附一份 E-E-A-T 自查清单。"
 pubDatetime: 2026-06-22T09:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---

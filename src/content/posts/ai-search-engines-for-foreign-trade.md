@@ -2,6 +2,7 @@
 title: "AI搜索引擎有哪些？外贸人必须了解的6大平台"
 description: "ChatGPT、Perplexity、Google AI Overviews……AI搜索引擎已经不止一个。外贸企业做GEO，先搞清楚要优化哪些平台，这篇文章帮你逐一拆解。"
 pubDatetime: 2026-06-15T10:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "ai-platforms"]
 ---

@@ -2,6 +2,7 @@
 title: "Bing SEO入门：外贸人最容易忽略的流量入口"
 description: "Google 之外，Bing 是外贸企业不能忽视的流量入口。更重要的是：ChatGPT 的联网搜索依赖 Bing 索引，优化 Bing 就是优化 AI 可见性。这篇教你怎么做。"
 pubDatetime: 2026-06-16T10:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "bing-seo"]
 ---

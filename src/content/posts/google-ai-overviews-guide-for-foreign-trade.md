@@ -2,6 +2,7 @@
 title: "Google AI Overviews 外贸人完全指南：怎么出现在那个蓝色摘要框里"
 description: "Google AI Overviews（AI 概览）正在吃掉传统搜索结果的点击率。本文系统讲解哪类关键词会触发 AI Overviews、它引用内容的核心逻辑、如何用 Google Search Console 追踪曝光数据，以及外贸企业可以立即执行的实战优化策略。"
 pubDatetime: 2026-06-24T09:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["ai-platforms", "content-strategy", "geo-basics"]
 ---

@@ -2,6 +2,7 @@
 title: "外贸GEO产品页怎么写才能被 AI 搜索引用？"
 description: "大多数外贸产品页对 AI 搜索引擎来说几乎不可见——参数表格和规格列表是 AI 最不愿意引用的格式。本文用 3 个改造方向和改造前后对比示例，教你把产品页变成 AI 愿意引用的内容：加应用场景区块、把技术参数改写成问答格式、在产品页末尾加迷你 FAQ。"
 pubDatetime: 2026-07-05T09:00:00+08:00
+modDatetime: 2026-07-08T06:40:27+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---

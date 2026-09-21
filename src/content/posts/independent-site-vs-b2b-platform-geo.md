@@ -2,6 +2,7 @@
 title: "外贸独立站 vs 阿里国际站做 GEO 哪个更好：精力分配与互补策略"
 description: "独立站和阿里国际站的 GEO 逻辑完全不同：独立站内容可控是深度 GEO 的主阵地，阿里国际站的平台内搜索不等于 AI 搜索。本文给出不同发展阶段的精力分配建议，以及两个平台互相增强品牌权威性的方法。"
 pubDatetime: 2026-07-20T09:00:00+08:00
+modDatetime: 2026-07-20T22:04:40+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---

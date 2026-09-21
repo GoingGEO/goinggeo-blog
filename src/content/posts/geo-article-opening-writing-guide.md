@@ -2,6 +2,7 @@
 title: "文章开头这样写，AI 引用率立刻提升"
 description: "文章前 200 字是 AI 提取摘要的核心区域。本文拆解最容易被引用的开头结构——结论先行法，给出每个开头必须包含的三个核心元素，并用 3 组外贸场景的改写对比展示从弱到强的具体改法。附 Semrush 和 AEO 研究数据支撑。"
 pubDatetime: 2026-07-03T09:00:00+08:00
+modDatetime: 2026-07-08T06:40:27+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics"]
 ---

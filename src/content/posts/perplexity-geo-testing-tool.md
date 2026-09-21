@@ -2,6 +2,7 @@
 title: "外贸GEO工具推荐：Perplexity 首选测试工具"
 description: "Perplexity 是目前唯一公开标注引用来源的 AI 搜索引擎，是外贸GEO效果检验的首选工具。本文教你用 Perplexity 分析竞品被引用的原因、检测自己的内容是否出现、用引用来源反推改进方向，附 6 个可直接复制的测试 prompt 模板。"
 pubDatetime: 2026-06-28T09:00:00+08:00
+modDatetime: 2026-07-06T20:46:38+08:00
 heroImage: ''
 tags: ["ai-platforms", "geo-basics", "foreign-trade"]
 ---

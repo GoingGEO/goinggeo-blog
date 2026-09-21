@@ -2,6 +2,7 @@
 title: "ChatGPT 搜索怎么决定引用谁？——背后的逻辑拆解"
 description: "ChatGPT 联网搜索依赖 Bing 索引，但决定引用哪条内容有自己的判断逻辑。本文拆解三个核心维度——权威性、相关性、信息密度，并给出外贸网站的 3 个快速改造点，让你的内容更容易被 ChatGPT 引用。"
 pubDatetime: 2026-06-21T09:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["ai-platforms"]
 ---

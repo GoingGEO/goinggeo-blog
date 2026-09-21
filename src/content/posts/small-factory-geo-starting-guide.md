@@ -2,6 +2,7 @@
 title: "中小工厂外贸GEO从哪开始：没有内容团队的最小可行方案"
 description: "资源有限的外贸中小工厂做 GEO，核心不是加大投入，而是选对方向。本文给出一个现实路径：每月 4 篇客户问题类文章起步，用 AI 辅助写作降低生产成本，附 6 个月基础建设路线图。"
 pubDatetime: 2026-07-11T17:30:00+08:00
+modDatetime: 2026-07-11T18:01:02+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---

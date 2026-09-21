@@ -2,6 +2,7 @@
 title: "外贸GEO是什么？生成式引擎优化入门指南"
 description: "外贸GEO（生成式引擎优化）是面向 AI 搜索时代的优化策略，帮助外贸企业在 ChatGPT、Perplexity 等生成式引擎中获得推荐和引用。本文系统讲解外贸GEO的概念、核心原则和入门步骤。"
 pubDatetime: 2026-06-15T08:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["geo-basics", "foreign-trade"]
 ---

@@ -2,6 +2,7 @@
 title: "外贸GEO怎么做？AI搜索获客从0到1实战指南"
 description: "外贸GEO实操入门：从零开始布局 AI 搜索获客的完整路径。不用懂算法，不用招技术团队，跟着做就能让你的公司在 ChatGPT、Perplexity 里被海外采购商找到。附第一步行动清单。"
 pubDatetime: 2026-06-29T09:00:00+08:00
+modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
 tags: ["foreign-trade", "geo-basics", "ai-platforms"]
 ---

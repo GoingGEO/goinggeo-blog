@@ -2,6 +2,7 @@
 title: "为什么 Perplexity 引用了你，ChatGPT 却没有？——双平台引用差异详解"
 description: "同一篇文章，Perplexity 引用了、ChatGPT 却没有——这是外贸做 GEO 时最常见的困惑。根因是两个平台的索引机制不同：Perplexity 实时抓取，ChatGPT 依赖 Bing 索引周期。本文讲清差异成因、3 个典型现象、4 个双平台兼容写法，附一份可逐项打勾的双平台兼容自检清单。"
 pubDatetime: 2026-07-22T09:00:00+08:00
+modDatetime: 2026-07-22T21:13:01+08:00
 heroImage: ''
 tags: ["ai-platforms", "geo-basics", "content-strategy"]
 ---
