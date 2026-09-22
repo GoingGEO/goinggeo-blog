@@ -2,6 +2,7 @@
 title: "展会季来临：广交会前如何用 GEO 提升品牌曝光"
 description: "采购商参展前 1-2 个月会用 AI 搜索预研供应商。广交会这类大型展会前的窗口期，正是用 GEO 提前抢占 AI 搜索结果、让客户在到展位前就记住你的关键时机。本文给出可落地的展会 GEO 作战框架。"
 pubDatetime: 2026-08-22T09:00:00+08:00
+modDatetime: 2026-08-22T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---

@@ -2,6 +2,7 @@
 title: "如何追踪你的 GEO 效果？可用工具完整清单"
 description: "三类追踪方法：GSC 的 AI Overviews 数据、Perplexity 手动检测法、第三方工具推荐。给出适合外贸企业的简易 GEO 效果追踪模板。"
 pubDatetime: 2026-10-17T09:00:00+08:00
+modDatetime: 2026-10-17T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "technical-seo"]
 ---

@@ -2,6 +2,7 @@
 title: "AI 搜索广告 vs 自然引用：外贸企业该怎么选？"
 description: "AI 搜索引擎开始出现广告位（Perplexity Pro、Google AI Overviews Sponsored）。自然引用和付费曝光的差异、什么情况适合付费、什么情况坚持自然 GEO，附投入产出对比框架。"
 pubDatetime: 2026-12-19T09:00:00+08:00
+modDatetime: 2026-12-19T09:00:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "foreign-trade"]
 ---

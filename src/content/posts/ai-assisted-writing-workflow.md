@@ -2,6 +2,7 @@
 title: "AI 辅助写作的正确打开方式——外贸内容生产效率指南"
 description: "哪些环节适合用 AI（收集素材、初稿框架、改写润色）、哪些必须人工（行业经验、数据核实、专业判断），附一篇 1500 字文章的标准生产流程。"
 pubDatetime: 2026-10-10T09:00:00+08:00
+modDatetime: 2026-10-10T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "foreign-trade"]
 ---

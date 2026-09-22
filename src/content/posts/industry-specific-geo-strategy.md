@@ -2,6 +2,7 @@
 title: "外贸行业 GEO 差异化策略：包袋 / LED / 机械设备各不同"
 description: "不同行业采购商的 AI 搜索行为不同。包袋行业重图片和材质描述、LED 行业重技术参数和认证、机械设备重产能和售后服务。按行业给出 GEO 内容侧重点差异表。"
 pubDatetime: 2026-11-21T09:00:00+08:00
+modDatetime: 2026-11-21T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---

@@ -2,6 +2,7 @@
 title: "外贸 About 页面 GEO 改造完全指南"
 description: "About 页是 AI 判断“你是谁”的第一入口。从品牌实体建设角度，拆解 About 页应包含的 6 类信息、Schema 配置、与品牌故事文章的配合、改写前后对比示例。承接品牌故事文章。"
 pubDatetime: 2026-12-09T09:00:00+08:00
+modDatetime: 2026-12-09T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "technical-seo"]
 ---

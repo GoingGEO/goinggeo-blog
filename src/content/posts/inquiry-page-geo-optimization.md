@@ -2,6 +2,7 @@
 title: "询盘页改造：让联系页也成为 GEO 内容资产"
 description: "询盘页和联系页通常是 AI 搜索盲区。3 个改造方向：加“我们服务哪类客户”描述、加“合作常见问题”FAQ 模块、配置 LocalBusiness Schema。附可直接套用的内容框架。"
 pubDatetime: 2026-09-19T09:00:00+08:00
+modDatetime: 2026-09-19T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "technical-seo"]
 ---

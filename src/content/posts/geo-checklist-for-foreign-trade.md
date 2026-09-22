@@ -4,7 +4,7 @@ description: "外贸GEO效果自查清单，一步步检查你的网站在 Googl
 pubDatetime: 2026-06-16T10:00:00+08:00
 modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
-tags: ["geo-basics", "geo-checklist", "foreign-trade"]
+tags: ["geo-basics", "technical-seo", "foreign-trade"]
 ---
 
 外贸GEO检查清单是一套系统化的自查流程，帮你确认网站在 AI 搜索引擎中是否被有效引用。你写了几篇博客文章，也优化了网站速度，但**怎么知道外贸GEO 有没有起效**？

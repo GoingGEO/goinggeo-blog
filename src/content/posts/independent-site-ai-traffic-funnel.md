@@ -2,6 +2,7 @@
 title: "独立站 + GEO：收到第一笔“AI 引流”询盘的完整路径"
 description: "客户说“是在 ChatGPT 里找到你的”——这条路怎么走出来的？从独立站搭建、内容发布、被索引、到客户看见并询盘的完整链条，拆解每个环节关键决策。"
 pubDatetime: 2026-11-04T09:00:00+08:00
+modDatetime: 2026-11-04T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "foreign-trade"]
 ---

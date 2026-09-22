@@ -2,6 +2,7 @@
 title: "AI 引用监控流程：如何建立日常监控工作机制"
 description: "被 AI 引用不是一次性的，需要持续监控。讲监控工具选择（Perplexity 定期搜索 + Google Alerts + 手动抽检）、监控频率建议（周 / 月 / 季度各做什么）、引用变化应对流程。"
 pubDatetime: 2026-12-05T09:00:00+08:00
+modDatetime: 2026-12-05T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "technical-seo"]
 ---

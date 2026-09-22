@@ -2,6 +2,7 @@
 title: "采购商搜索意图分析：AI 时代的外贸客户画像"
 description: "采购商在 AI 搜索里怎么搜？分析 5 类典型搜索意图（了解产品、比较供应商、验证资质、询价对比、售后评估），每类意图对应的内容类型和写作要点。"
 pubDatetime: 2026-12-12T09:00:00+08:00
+modDatetime: 2026-12-12T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---

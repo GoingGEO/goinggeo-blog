@@ -2,6 +2,7 @@
 title: "robots.txt 和 llms.txt：AI 爬虫配置完全指南"
 description: "robots.txt 管的是“传统爬虫能不能抓”，llms.txt 管的是“AI 模型该怎么读你的网站”。本文讲清两者区别、llms.txt 的标准写法、AstroPaper 站点的配置方法，以及最常见的配置错误。"
 pubDatetime: 2026-08-15T09:00:00+08:00
+modDatetime: 2026-08-15T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "geo-basics"]
 ---

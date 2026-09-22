@@ -2,6 +2,7 @@
 title: "Open Graph 和社交分享：间接影响 GEO 的隐藏信号"
 description: "LinkedIn / Twitter 分享时 OG 标签决定展示效果→影响点击率→影响权威性信号。OG 标签工作原理、AstroPaper 配置方法、外贸内容在 LinkedIn 分享最佳实践。"
 pubDatetime: 2026-09-23T09:00:00+08:00
+modDatetime: 2026-09-23T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "content-strategy"]
 ---

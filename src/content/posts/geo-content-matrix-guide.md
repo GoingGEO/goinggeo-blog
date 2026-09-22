@@ -2,6 +2,7 @@
 title: "GEO 内容矩阵搭建指南：从单篇文章到内容体系"
 description: "单篇文章是点，内容矩阵是面。讲如何用 Pillar Page + Cluster 架构搭建外贸 GEO 内容矩阵、矩阵内文章互链规则、矩阵健康度评估指标、不同发展阶段的内容矩阵规模建议。"
 pubDatetime: 2027-01-23T09:00:00+08:00
+modDatetime: 2027-01-23T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics"]
 ---

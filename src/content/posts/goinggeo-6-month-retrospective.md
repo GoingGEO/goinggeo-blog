@@ -2,6 +2,7 @@
 title: "GoingGEO 博客运营 6 个月复盘：数据说话"
 description: "GoingGEO 自身运营 6 个月真实数据报告：哪些文章被 AI 引擎引用了、引用来自哪些平台、流量来源分布。重点复盘比预期好的内容类型和表现不如预期的文章做错了什么。下阶段策略调整方向。"
 pubDatetime: 2026-12-16T09:00:00+08:00
+modDatetime: 2026-12-16T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "geo-basics"]
 ---

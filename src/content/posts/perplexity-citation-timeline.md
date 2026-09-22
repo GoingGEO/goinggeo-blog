@@ -2,6 +2,7 @@
 title: "一篇文章从发布到被 Perplexity 引用：完整时间线"
 description: "用具体案例复盘全过程：发布时间→被索引→出现在引用里，哪些因素加速这个过程，哪些改动起了关键作用。"
 pubDatetime: 2026-10-21T09:00:00+08:00
+modDatetime: 2026-10-21T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "ai-platforms"]
 ---

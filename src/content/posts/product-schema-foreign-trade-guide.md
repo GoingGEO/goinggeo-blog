@@ -2,6 +2,7 @@
 title: "Product Schema 外贸实战：让采购商搜产品直接出现在 AI 结果里"
 description: "Product Schema 让 AI 精准识别产品信息。关键字段（name/description/brand/offers）、外贸特殊字段需求（MOQ/认证/供货区域）、完整代码示例+验证。"
 pubDatetime: 2026-10-14T09:00:00+08:00
+modDatetime: 2026-10-14T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "foreign-trade"]
 ---

@@ -2,6 +2,7 @@
 title: "2027 春季广交会 GEO 预热：展前 3 个月内容布局清单"
 description: "4 月春季广交会展前 3 个月（1 月开始）该做什么：关键词覆盖清单、展前内容发布日历、展中实时内容采集方案、展后内容沉淀策略。附完整的“展会 GEO 作战日历”模板。"
 pubDatetime: 2027-01-27T09:00:00+08:00
+modDatetime: 2027-01-27T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---

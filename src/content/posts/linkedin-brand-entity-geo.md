@@ -2,6 +2,7 @@
 title: "LinkedIn 内容与外贸品牌实体：社交信号如何增强 GEO"
 description: "LinkedIn 是外贸人最活跃的海外社交平台，其内容被 AI 引擎视为品牌实体信号。讲 LinkedIn Company Page 优化、个人 Profile 与公司实体关联、LinkedIn 文章与博客内容交叉引用策略。"
 pubDatetime: 2026-11-14T09:00:00+08:00
+modDatetime: 2026-11-14T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---

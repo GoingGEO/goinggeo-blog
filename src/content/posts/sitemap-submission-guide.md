@@ -2,6 +2,7 @@
 title: "Sitemap 提交完整指南：让新内容快速被 AI 引擎发现"
 description: "AstroPaper 自动 Sitemap 生成、向 GSC 和 Bing Webmaster Tools 提交完整步骤、提交后验证方法、Sitemap 更新频率配置。"
 pubDatetime: 2026-09-12T09:00:00+08:00
+modDatetime: 2026-09-12T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "geo-basics"]
 ---

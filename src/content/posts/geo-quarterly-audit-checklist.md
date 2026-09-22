@@ -2,6 +2,7 @@
 title: "GEO 季度审计清单：每 3 个月必须做的 10 项检查"
 description: "GEO 不是一次性工作，需要持续维护。10 项审计清单：内容新鲜度、FAQ Schema 有效性、内链健康度、AI 引用变化、竞品动态、技术基础、关键词覆盖、外链增长、Core Web Vitals、llms.txt 更新。"
 pubDatetime: 2026-11-28T09:00:00+08:00
+modDatetime: 2026-11-28T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "content-strategy"]
 ---

@@ -2,6 +2,7 @@
 title: "内容发布频率对 GEO 效果影响有多大？"
 description: "每周 1 篇和每月 1 篇，GEO 效果差别有多大？用数据回答，给出不同资源投入下的发布节奏建议：初期建设阶段 vs 维护阶段的合理频率。质量比频率重要，但频率不能太低。"
 pubDatetime: 2026-11-11T09:00:00+08:00
+modDatetime: 2026-11-11T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "case-study"]
 ---

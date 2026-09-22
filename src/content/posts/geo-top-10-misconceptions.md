@@ -2,6 +2,7 @@
 title: "GEO 常见误区 Top 10：外贸人最容易踩的坑"
 description: "整理 10 个最常见的 GEO 认知误区：“GEO 就是 SEO 换了个名字”、“文章越长越好”、“AI 不引用我是因为内容不够好”、“做了 Schema 就一定能被引用”等。每个误区给出正确认知和实操建议。"
 pubDatetime: 2027-01-09T09:00:00+08:00
+modDatetime: 2027-01-09T09:00:00+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---

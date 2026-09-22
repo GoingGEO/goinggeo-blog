@@ -2,6 +2,7 @@
 title: "外贸企业做 GEO 最常见的 3 个失败模式"
 description: "3 个常见错误：优化了没有真实搜索需求的关键词、内容好但结构让 AI 看不懂、技术层面存在索引障碍。每个错误配诊断方法和修复建议。"
 pubDatetime: 2026-10-24T09:00:00+08:00
+modDatetime: 2026-10-24T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "geo-basics"]
 ---

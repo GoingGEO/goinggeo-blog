@@ -2,6 +2,7 @@
 title: "多模态 GEO 入门：图片、视频、语音搜索的外贸机会"
 description: "AI 搜索不再只有文字——图片搜索、视频理解、语音助手都在演进。外贸企业如何提前布局多模态内容：产品图片的 Alt 和标题优化、工厂视频的字幕和描述、语音搜索问答内容准备。"
 pubDatetime: 2026-12-26T09:00:00+08:00
+modDatetime: 2026-12-26T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "ai-platforms"]
 ---

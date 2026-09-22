@@ -2,6 +2,7 @@
 title: "某外贸工厂 GEO 案例：从零开始半年稳定被引用"
 description: "一家出口工厂从零起步做 GEO 完整过程：起点条件、策略选择、关键节点时间轴、现在的引用稳定性和业务影响。重点还原每个阶段遇到的真实问题和应对方式。"
 pubDatetime: 2026-10-31T09:00:00+08:00
+modDatetime: 2026-10-31T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "foreign-trade"]
 ---

@@ -2,6 +2,7 @@
 title: "外贸 FAQ 页面 GEO 专项指南：从问答到被引用的完整路径"
 description: "FAQ 不只是文章末尾的补充——独立的 FAQ 页面是 GEO 的高价值资产。讲 FAQ 页面架构设计、问题收集方法（从客户邮件 / WhatsApp 提炼）、答案写作规范、FAQPage Schema 深度配置。"
 pubDatetime: 2027-01-05T09:00:00+08:00
+modDatetime: 2027-01-05T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "technical-seo"]
 ---

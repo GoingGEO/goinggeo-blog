@@ -2,6 +2,7 @@
 title: "跨境电商卖家转型 GEO，和做 SEO 有什么不同？"
 description: "亚马逊、eBay 卖家习惯了“关键词排名 + 广告位”思维，但 GEO 逻辑完全不同：SEO 优化的是“搜索结果第几名”，GEO 优化的是“AI 答案里有没有你、引用的是哪段话”。本文讲清差异，并给出跨境电商卖家的 GEO 上手路径。"
 pubDatetime: 2026-08-26T09:00:00+08:00
+modDatetime: 2026-08-26T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "geo-basics"]
 ---

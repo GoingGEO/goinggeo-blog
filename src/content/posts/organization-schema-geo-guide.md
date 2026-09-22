@@ -2,6 +2,7 @@
 title: "Organization Schema 实战：让 AI 真正认识你的公司"
 description: "Organization Schema 是 AI 识别公司实体的核心结构化数据。核心字段、和 LocalBusiness 区别、外贸公司完整代码示例、用 Rich Results Test 验证。"
 pubDatetime: 2026-10-07T09:00:00+08:00
+modDatetime: 2026-10-07T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "foreign-trade"]
 ---

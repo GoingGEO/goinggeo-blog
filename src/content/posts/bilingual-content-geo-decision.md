@@ -2,6 +2,7 @@
 title: "外贸企业做 GEO，内容需要中英双语吗？"
 description: "根据目标受众、资源投入、现阶段优先级给决策框架。英文是主战场，中文是加分项。双语正确做法不是机器翻译，是分别针对不同受众写作。"
 pubDatetime: 2026-09-09T09:00:00+08:00
+modDatetime: 2026-09-09T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---

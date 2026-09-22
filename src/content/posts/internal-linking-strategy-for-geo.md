@@ -2,6 +2,7 @@
 title: "内链策略：让 AI 看见你的整个内容体系"
 description: "单篇文章是孤岛，互相链接的内容网络才是 GEO 的护城河。本文讲内链对 AI 引擎的意义、Pillar Page + Cluster 主题聚类结构，并用 GoingGEO 现有文章演示如何规划内链，给出每篇文章可落地的内链配置建议。"
 pubDatetime: 2026-08-11T09:00:00+08:00
+modDatetime: 2026-08-11T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "technical-seo"]
 ---

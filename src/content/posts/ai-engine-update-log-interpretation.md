@@ -2,6 +2,7 @@
 title: "AI 引擎更新日志解读：ChatGPT / Perplexity / Google 变了什么"
 description: "2026 年下半年各 AI 搜索平台的重要更新汇总和解读：索引机制变化、引用规则调整、新功能上线。每次更新对外贸 GEO 的影响判断和应对建议。"
 pubDatetime: 2027-01-16T09:00:00+08:00
+modDatetime: 2027-01-16T09:00:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "technical-seo"]
 ---

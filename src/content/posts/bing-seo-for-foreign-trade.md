@@ -4,7 +4,7 @@ description: "Google 之外，Bing 是外贸企业不能忽视的流量入口。
 pubDatetime: 2026-06-16T10:00:00+08:00
 modDatetime: 2026-07-14T23:52:34+08:00
 heroImage: ''
-tags: ["geo-basics", "bing-seo"]
+tags: ["geo-basics", "ai-platforms"]
 ---
 
 提到搜索引擎，外贸人第一反应都是 Google。这没问题，但有一个平台被严重低估了——**Bing**。

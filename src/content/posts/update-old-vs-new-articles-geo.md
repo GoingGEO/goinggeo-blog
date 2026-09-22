@@ -2,6 +2,7 @@
 title: "更新旧文章 vs 写新文章，GEO 视角下的正确选择"
 description: "更新旧文传递“持续维护”新鲜度信号，但不是所有旧文都值得更新。本文给判断标准、旧文更新操作清单、每季度内容审计动作。"
 pubDatetime: 2026-09-05T09:00:00+08:00
+modDatetime: 2026-09-05T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "geo-basics"]
 ---

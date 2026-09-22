@@ -2,6 +2,7 @@
 title: "AI 搜索优化完全指南：2026 年外贸人必修课"
 description: "AI 搜索优化就是让 ChatGPT、Perplexity、Google AI Overviews 在回答时更愿意、更准确地引用你的内容。本文是 GoingGEO 的“AI 搜索优化”支柱页，系统拆解内容层、技术层、权威层三层框架，并给出外贸企业可落地的行动清单。"
 pubDatetime: 2026-08-29T09:00:00+08:00
+modDatetime: 2026-08-29T09:00:00+08:00
 heroImage: ''
 tags: ["geo-basics", "ai-platforms"]
 ---

@@ -2,6 +2,7 @@
 title: "GEO 和 SEO 可以同时做吗？资源有限时的策略选择"
 description: "两者重叠部分（可共用的内容和技术工作）和差异部分（需额外投入的），给出资源有限时的优先级建议和整合方案。"
 pubDatetime: 2026-11-25T09:00:00+08:00
+modDatetime: 2026-11-25T09:00:00+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---

@@ -2,6 +2,7 @@
 title: "视频和图片内容能提升 GEO 效果吗？"
 description: "文字是 AI 引用主力，但多媒体不是没有价值。AI 处理多媒体实际方式：视频字幕可抓取、图片 Alt 是信号、嵌入说明补充上下文。产品图册 vs 场景图选择建议。"
 pubDatetime: 2026-09-26T09:00:00+08:00
+modDatetime: 2026-09-26T09:00:00+08:00
 heroImage: ''
 tags: ["content-strategy", "technical-seo"]
 ---

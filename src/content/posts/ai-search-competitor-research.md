@@ -2,6 +2,7 @@
 title: "用 AI 搜索做竞品调研：外贸情报工作的新方法"
 description: "竞争对手被 AI 引用了你没有——怎么拆解他们做对了什么？5 个标准动作：搜索核心词观察谁被引用、分析被引用段落共同特征、检查竞品 Schema 配置。附竞品分析 prompt 模板。"
 pubDatetime: 2026-09-16T09:00:00+08:00
+modDatetime: 2026-09-16T09:00:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "case-study"]
 ---

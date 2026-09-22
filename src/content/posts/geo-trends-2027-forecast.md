@@ -2,6 +2,7 @@
 title: "2027 年 GEO 趋势预判：外贸人下一步该准备什么"
 description: "基于 2026 年观察，对 2027 年 GEO 变化方向做出判断：AI 引擎多模态处理能力增强、品牌实体建设权重上升、AI 搜索广告模式成形。外贸人现在就该为这些趋势做提前布局。"
 pubDatetime: 2026-12-02T09:00:00+08:00
+modDatetime: 2026-12-02T09:00:00+08:00
 heroImage: ''
 tags: ["geo-basics", "ai-platforms"]
 ---

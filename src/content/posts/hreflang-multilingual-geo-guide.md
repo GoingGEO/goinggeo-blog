@@ -2,6 +2,7 @@
 title: "多语言网站 GEO 配置：hreflang 标签避坑指南"
 description: "中英双语网站未正确配置 hreflang，AI 引擎可能视为重复内容。hreflang 作用、常见配置错误、AstroPaper 多语言配置方法、多语言 vs 单语言决策参考。"
 pubDatetime: 2026-09-30T09:00:00+08:00
+modDatetime: 2026-09-30T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "foreign-trade"]
 ---

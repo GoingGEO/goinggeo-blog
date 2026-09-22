@@ -2,6 +2,7 @@
 title: "同行都在做 GEO 了吗？2026 外贸企业 GEO 现状调查"
 description: "外贸行业 GEO 普及程度如何？谁在做、谁还没做、做的人效果怎么样？结合公开数据和观察给出 2026 年行业现状判断，以及“现在入局还来不来得及”的真实回答。"
 pubDatetime: 2026-11-18T09:00:00+08:00
+modDatetime: 2026-11-18T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "geo-basics"]
 ---

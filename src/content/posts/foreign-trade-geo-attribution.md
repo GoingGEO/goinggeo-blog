@@ -2,6 +2,7 @@
 title: "外贸 GEO 效果归因：如何量化 AI 搜索带来的询盘"
 description: "“客户说是 AI 搜索找到的”——怎么系统化归因？讲 UTM 参数使用、询盘来源追踪表设计、AI 搜索引流 vs 传统 SEO 引流的转化率对比方法、向老板汇报 GEO ROI 的数据框架。"
 pubDatetime: 2027-01-20T09:00:00+08:00
+modDatetime: 2027-01-20T09:00:00+08:00
 heroImage: ''
 tags: ["case-study", "foreign-trade"]
 ---

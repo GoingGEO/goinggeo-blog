@@ -2,6 +2,7 @@
 title: "网站速度如何影响 GEO？Core Web Vitals 外贸人快速入门"
 description: "页面慢=AI 爬虫抓取成本高=索引完整度低。用非技术语言解释 LCP/INP/CLS，列出外贸网站速度常见拖累因素，给出不改代码就能提速的 3 个方法。"
 pubDatetime: 2026-09-02T09:00:00+08:00
+modDatetime: 2026-09-02T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "foreign-trade"]
 ---

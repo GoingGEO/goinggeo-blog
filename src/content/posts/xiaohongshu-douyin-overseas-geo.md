@@ -2,6 +2,7 @@
 title: "小红书和抖音内容能影响海外 GEO 吗？"
 description: "国内社媒对海外 AI 引擎直接影响很小，但间接路径存在。厘清影响链条，给出结论：英文内容分发优先级远高于国内社媒，国内内容是加分项而非主战场。"
 pubDatetime: 2026-11-07T09:00:00+08:00
+modDatetime: 2026-11-07T09:00:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "foreign-trade"]
 ---

@@ -2,6 +2,7 @@
 title: "外贸 B2B vs B2C 的 GEO 差异：采购决策链不同，内容策略不同"
 description: "B2B 采购决策链长（5-12 个月），需要多轮内容覆盖；B2C 决策链短（1-7 天），需要即时回答型内容。讲两种模式的内容矩阵差异、关键词选择策略、FAQ 设计区别。"
 pubDatetime: 2027-01-13T09:00:00+08:00
+modDatetime: 2027-01-13T09:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---
