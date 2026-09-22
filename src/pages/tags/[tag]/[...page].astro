@@ -38,6 +38,7 @@ const t = useTranslations(locale);
 ---
 
 <Layout title={`${t.pages.tagTitle}: ${tagName} | ${config.site.title}`}>
+  <meta name="robots" content="noindex,follow" slot="head" />
   <Header />
 
   <Breadcrumb />
