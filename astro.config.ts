@@ -24,8 +24,17 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap({
-      filter: page =>
-        config.features?.showArchives !== false || !page.endsWith("/archives/"),
+      filter: page => {
+        // 排除 noindex 页面，避免 sitemap 与页面指令信号冲突
+        if (page.includes("/tags/")) return false;
+        if (page.includes("/search/")) return false;
+        // 排除文章列表分页页 /posts/2/ ~ /posts/N/
+        if (/\/posts\/\d+\/$/.test(page)) return false;
+        // 原有逻辑：showArchives 关闭时排除 archives
+        if (config.features?.showArchives === false && page.endsWith("/archives/"))
+          return false;
+        return true;
+      },
     }),
   ],
   i18n: {
