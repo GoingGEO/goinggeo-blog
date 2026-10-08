@@ -25,6 +25,8 @@ tags: ["ai-platforms", "geo-basics", "content-strategy"]
 | Grok | 2 | 2 | 2 | **6** | 🥉 第三梯队 |
 | Claude | 2 | 3 | 2 | **7** | 🥉 第三梯队 |
 
+> 表中份额与用户量均为 **2026 年 Q1-Q2 公开数据**（来源：各平台官方披露、StatCounter、Similarweb）。AI 平台数据变化快，文内所有数字请以本文 `dateModified` 标注的时间为准，超过 6 个月建议重新核实。
+
 **三个维度的含义：**
 
 - **市场份额**：全球活跃用户量、查询量
@@ -39,7 +41,7 @@ tags: ["ai-platforms", "geo-basics", "content-strategy"]
 
 ### Copilot 的市场地位
 
-Microsoft Copilot 在 2026 年拥有 3300 万活跃用户和 1500 万付费席位，约 70% 的财富 500 强企业已在至少一个部门部署。月度 Web 访问量超过 1.5 亿次，其中超过 40% 的用户通过 Windows 或 Edge 浏览器接入。
+Microsoft Copilot 在 2026 年拥有 3300 万活跃用户和 1500 万付费席位，约 70% 的财富 500 强企业已在至少一个部门部署（2026 年上半年数据）。月度 Web 访问量超过 1.5 亿次，其中超过 40% 的用户通过 Windows 或 Edge 浏览器接入。
 
 **对外贸企业的关键意义**：欧美企业客户大量使用 Copilot。当采购商在 Edge 浏览器侧边栏问 “reliable LED supplier in China” 时，Copilot 的回答直接决定你能不能被发现。
 
@@ -76,7 +78,7 @@ Copilot 的搜索后端是 Bing。这意味着：
 
 ### Gemini 的搜索定位
 
-Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。2026 年，Google AI Overviews 已覆盖约 60% 的美国搜索查询。
+Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。截至 2026 年上半年，Google AI Overviews 已覆盖约 60% 的美国搜索查询。
 
 **关键认知**：Gemini 作为独立聊天机器人（gemini.google.com）的使用量远低于 ChatGPT，但它**驱动了 Google AI Overviews**。这意味着：
 
@@ -88,7 +90,7 @@ Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。2
 
 ### Gemini 独立聊天端值得管吗
 
-不值得。Gemini 独立聊天端的市场份额约 3.5-6.5 亿月活，看似不小，但其中大部分是安卓系统预装带来的被动用户，活跃搜索行为远低于 ChatGPT。
+不值得。Gemini 独立聊天端的月活约 3.5-6.5 亿（2026 年 Q1 数据），看似不小，但其中大部分是安卓系统预装带来的被动用户，活跃搜索行为远低于 ChatGPT。
 
 **结论**：把 Gemini 当作 Google AI Overviews 的同义词就好。做好 Google SEO + AI Overviews 优化，Gemini 自动覆盖。
 
@@ -260,7 +262,7 @@ Claude 使用 **Brave Search** 作为网页搜索后端——86.7% 的引用 URL
 
 **Q：Copilot 和 ChatGPT 都用 Bing，为什么优先级不同？**
 
-A：Copilot 的 3300 万用户中企业用户占比高（70% 财富 500 强部署），但 Copilot 的引用逻辑和 ChatGPT 类似——都从 Bing 索引取内容。你为 ChatGPT 做的优化（Bing SEO + FAQ 格式 + 权威引用）会自动覆盖 Copilot，所以不需要单独投入精力。
+A：Copilot 的 3300 万用户（2026 年上半年）中企业用户占比高（70% 财富 500 强部署），但 Copilot 的引用逻辑和 ChatGPT 类似——都从 Bing 索引取内容。你为 ChatGPT 做的优化（Bing SEO + FAQ 格式 + 权威引用）会自动覆盖 Copilot，所以不需要单独投入精力。
 
 **Q：Gemini 和 Google AI Overviews 是同一个东西吗？**
 
@@ -276,9 +278,9 @@ A：不需要单独做。Brave 的排名因素和 Google 类似（内容质量�
 
 **Q：如果精力只够做一个平台，选哪个？**
 
-A：选 ChatGPT。原因：用户量最大（8 亿周活）、搜索依赖 Bing 索引（做好 Bing SEO 同时覆盖 Copilot 和 Perplexity）、引用逻辑最透明。但理想情况下第一梯队的三个平台应该同时做，因为它们的工作有很大重叠——写一篇 FAQ 格式的权威文章，三个平台都会受益。
+A：选 ChatGPT。原因：用户量最大（2026 年上半年约 8 亿周活）、搜索依赖 Bing 索引（做好 Bing SEO 同时覆盖 Copilot 和 Perplexity）、引用逻辑最透明。但理想情况下第一梯队的三个平台应该同时做，因为它们的工作有很大重叠——写一篇 FAQ 格式的权威文章，三个平台都会受益。
 
-**Q：Perplexity 用户量比 Copilot 少（2200 万 vs 3300 万），为什么优先级更高？**
+**Q：Perplexity 用户量比 Copilot 少（2200 万 vs 3300 万，2026 年上半年数据），为什么优先级更高？**
 
 A：因为 Perplexity 的优化可操作性最高——它一定会引用 FAQ 格式内容、一定会展示引用来源、优化效果可以直接验证。Copilot 虽然用户多，但你无法直接控制它是否引用你（完全依赖 Bing 索引），可操作性低。优先级不只看用户量，还要看“你的努力能不能转化为被引用”。
 
