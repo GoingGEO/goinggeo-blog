@@ -2,7 +2,7 @@
 title: "外贸GEO怎么做？AI搜索获客从0到1实战指南"
 description: "外贸GEO实操入门：从零开始布局 AI 搜索获客的完整路径。不用懂算法，不用招技术团队，跟着做就能让你的公司在 ChatGPT、Perplexity 里被海外采购商找到。附第一步行动清单。"
 pubDatetime: 2026-06-29T09:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-10-08T22:00:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "geo-basics", "ai-platforms"]
 ---
@@ -239,7 +239,7 @@ GEO 比 SEO 快，但也不是今天发文章明天就有询盘。通常时间�
 
 ---
 
-**下一篇**我们会讲 Copilot 和 Claude 的优先级——这两个平台流量虽然小，但采购决策者比例高，值得单独分配精力。详见 [Copilot/Claude/Gemini/Grok GEO优先级](/posts/copilot-claude-gemini-grok-geo-priority/)。
+**延伸阅读**：[Copilot/Claude/Gemini/Grok GEO 优先级](/posts/copilot-claude-gemini-grok-geo-priority/)——这两个平台流量虽然小，但采购决策者比例高，值得单独分配精力。
 
 ---
 
