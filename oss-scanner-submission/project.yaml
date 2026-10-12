@@ -1,0 +1,20 @@
+# Anthropic OSS Scanner 目标配置
+# 提交前请对照 anthropics/oss-scanner 仓库里 targets/ 下任意现有示例与 CONTRIBUTING.md 复核字段名，
+# 该仓库 schema 偶尔会微调；以下为 2026-10 实测可用的合理版本。
+id: goinggeo-blog
+name: GoingGEO Blog (AstroPaper)
+language: javascript
+package_managers:
+  - pnpm
+build:
+  dockerfile: Dockerfile
+  context: .
+scanner:
+  ecosystems:
+    - npm
+  # 静态站点，无运行时服务端口需要扫描；只审依赖树
+  include_dev_dependencies: true
+notes: >
+  Astro 6 静态站点，构建产物部署到 Cloudflare Pages。
+  本次扫描目标是 supply-chain 依赖漏洞（与 site 内容、SEO 无关）。
+  已知风险低：无服务端运行时、无数据库、无第三方 SDK 直连。
