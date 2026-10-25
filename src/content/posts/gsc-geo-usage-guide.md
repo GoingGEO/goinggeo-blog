@@ -1,13 +1,13 @@
 ---
 title: "Google Search Console 的 GEO 用法：超越传统 SEO 数据"
-description: "GSC 不只是看排名点击——AI Overviews 曝光数据、索引覆盖率诊断、移动端可用性、结构化数据报告。外贸企业 GSC 配置完整步骤+GEO 数据解读方法。"
+description: "GSC 不只是看排名点击——生成式 AI 效果报告、AI 控制选项、索引覆盖率诊断、结构化数据。外贸企业 GSC 配置完整步骤+GEO 数据解读方法（含 2026 年 8 月新功能）。"
 pubDatetime: 2026-10-28T09:00:00+08:00
 modDatetime: 2026-10-28T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "case-study"]
 ---
 
-很多外贸企业把 Google Search Console（GSC）当成“看排名、看点击”的传统工具，但其实它是做 GEO 最唾手可得的免费武器：AI Overviews 曝光数据、索引覆盖率诊断、移动端可用性、结构化数据报告，全都能在 GSC 里看到，而且直接关系你的内容能不能被 AI 读到的前提。本文讲外贸企业怎么配置 GSC，以及怎么从 GEO 视角解读它的数据。
+很多外贸企业把 Google Search Console（GSC）当成“看排名、看点击”的传统工具，但其实它是做 GEO 最唾手可得的免费武器：生成式 AI 效果报告、索引覆盖率诊断、移动端可用性、结构化数据报告，全都能在 GSC 里看到，而且直接关系你的内容能不能被 AI 读到的前提。本文讲外贸企业怎么配置 GSC，以及怎么从 GEO 视角解读它的数据。
 
 Google Search Console 是谷歌提供的免费站点管理工具，让站长查看站点在谷歌搜索（及关联 AI 功能）中的表现和健康度。
 
@@ -20,9 +20,14 @@ Google Search Console 是谷歌提供的免费站点管理工具，让站长查�
 
 配好之后，下面四块数据是 GEO 重点。
 
-## 二、AI Overviews 曝光数据
+## 二、生成式 AI 效果报告（2026 年 8 月起新增）
 
-GSC 的“搜索结果”报告里会逐渐出现与 AI Overviews 相关的曝光和点击（字段随谷歌更新）。它直接回答：“哪些查询触发了 AI 概览、你的页面有没有出现在其中”。这是离“GEO 效果”最近的官方数据。
+2026 年 8 月 31 日起，GSC 上线了独立的“生成式 AI 效果报告”（在“效果”报告的搜索类型里），按页面、国家、设备、日期展示你的内容在 AI Overviews 和 AI Mode 中的曝光次数。它直接回答：“哪些 AI 搜索场景触发了你的页面、你有没有出现在其中”。这是离“GEO 效果”最近的官方数据。
+
+读数时注意两点：
+
+1. 这份报告目前只统计“曝光”。来自 AI 概览和 AI Mode 的点击混在“网页”搜索类型里，暂不单独拆分。
+2. 同一时期 GSC 还上线了“搜索生成式 AI 控制选项”（在“设置”里），决定你的站点是否参与 AI Overviews、AI Mode 和 Discover 的生成式功能。外贸企业保持默认的“包含”即可——“排除”虽然不影响常规搜索排名，但等于主动放弃 AI 搜索场景的全部曝光和流量，没有任何补偿性好处。
 
 ## 三、索引覆盖率诊断
 
@@ -34,7 +39,7 @@ AI 引擎高度移动优先。GSC 的“移动设备易用性”报告能发现�
 
 ## 五、结构化数据报告
 
-“增强功能 / 结构化数据”报告列出你页面上的 Schema 是否被识别、有没有错误。FAQ、Article、Product 的状态都在这里——这是验证 [FAQ Schema 实战](/posts/structured-data-article-faq-schema/) 是否生效的官方入口。
+“增强功能 / 结构化数据”报告列出你页面上的 Schema 是否被识别、有没有错误——这是验证 [FAQ Schema 实战](/posts/structured-data-article-faq-schema/) 是否生效的官方入口。注意：Google 已于 2026 年 6 月移除了报告中的“FAQ”专属分类（FAQ 富结果本身也在 2026 年 5 月全面下线），但 FAQPage 标记仍会被读取并用于 AI 引用。想确认页面上的 FAQPage 是否存在，可用 validator.schema.org 或直接查看页面源码里的 JSON-LD。
 
 ## GEO 视角的数据解读
 
@@ -42,7 +47,7 @@ AI 引擎高度移动优先。GSC 的“移动设备易用性”报告能发现�
 
 **Q：GSC 能直接看到“被 AI 引用”的数据吗？**
 
-A：GSC 提供 AI Overviews 相关的曝光和点击数据，能反映你的页面是否出现在 AI 概览中，但不是逐条“被引用”明细。更细的引用追踪需结合 Perplexity 手动检测等。
+A：能看到“曝光”层面——生成式 AI 效果报告会显示你的页面在 AI Overviews 和 AI Mode 中出现了多少次，但不是逐条“被引用”明细，点击也不单独拆分。更细的引用追踪需结合 Perplexity 手动检测等。
 
 **Q：外贸企业 GSC 用“网域”还是“网址”模式？**
 
@@ -54,7 +59,7 @@ A：先排查速度（[Core Web Vitals](/posts/core-web-vitals-geo-impact/)）�
 
 **Q：结构化数据报告报错，影响被 AI 引用吗？**
 
-A：可能。FAQ / Article 等 Schema 若有错误，AI 抽取会受影响。报告里的错误应优先修，它是验证 Schema 生效的官方入口。
+A：可能。FAQ / Article 等 Schema 若有错误，AI 抽取会受影响。结构化数据报告里报的错误应优先修；FAQ 分类虽已从报告中移除，Schema 本身仍然有效，可用 validator.schema.org 复核。
 
 **Q：移动端可用性差，和 GEO 有关系吗？**
 
@@ -62,4 +67,8 @@ A：有。AI 引擎移动优先，移动端渲染问题会间接影响抓取和�
 
 **Q：GSC 数据要多久看一次？**
 
-A：建议每月系统看一次（覆盖率、Schema、AI Overviews），平时有异常再查。配合 [GEO 效果追踪模板](/posts/geo-tracking-tools-guide/) 一起用更高效。
+A：建议每月系统看一次（覆盖率、Schema、生成式 AI 效果报告），平时有异常再查。配合 [GEO 效果追踪模板](/posts/geo-tracking-tools-guide/) 一起用更高效。
+
+**Q：GSC 里的“搜索生成式 AI 控制选项”要不要动？**
+
+A：不要动。默认的“包含”让站点内容可以出现在 AI Overviews、AI Mode 和 Discover 的生成式功能里；“排除”虽然不影响常规排名，但会同时失去这些场景的曝光和流量，对外贸获客没有任何好处。

@@ -2,7 +2,7 @@
 title: "结构化数据实战：Article 和 FAQ Schema 手把手配置"
 description: "第 7 篇讲了 Schema 的原理，这篇讲怎么做。完整代码模板 + Astro 配置步骤，非技术人也能跟着操作。加完 FAQPage Schema 后，每篇文章的 AI 引用概率有望提升 2-3 倍。"
 pubDatetime: 2026-06-18T10:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-10-25T16:45:00+08:00
 heroImage: ''
 tags: ["technical-seo", "geo-basics"]
 ---
@@ -138,9 +138,13 @@ injectFAQSchema();
 
 ### 验证 FAQPage Schema
 
-1. 打开 [Google Rich Results Test](https://search.google.com/test/rich-results)
+注意：Google 已于 2026 年 5 月全面下线 FAQ 富结果展示，并在同年 8 月从 Rich Results Test 中移除了 FAQ 检测——测试显示“无富结果”是正常现象，不代表配置失败。
+
+推荐用 Schema Markup Validator 验证：
+
+1. 打开 [Schema Markup Validator](https://validator.schema.org/)
 2. 输入你任何一篇有 FAQ 的文章 URL
-3. 如果看到 `FAQPage` 类型被检测到，说明配置成功
+3. 如果看到 `FAQPage` 类型被检测到、没有错误，说明配置成功
 
 ### 验证 Organization Schema
 
@@ -151,6 +155,10 @@ injectFAQSchema();
 ---
 
 ## 常见问题
+
+**Q：FAQ 富结果都已经下线了，FAQPage Schema 还有必要吗？**
+
+A：有必要。富结果下线改变的是 Google 搜索结果页的展示形式，不是结构化数据本身的作用。2026 年的多项研究显示，带 FAQPage 标记的页面在 AI Overviews 中的引用率仍显著更高（Semrush 2026 年 4 月研究约为无标记页面的 3.2 倍），ChatGPT 和 Perplexity 也会读取 FAQPage 标记。FAQ 价值的战场已经从“搜索结果折叠框”转移到了“AI 引用”。
 
 **Q：加了 FAQPage Schema 后多久能看到效果？**
 
