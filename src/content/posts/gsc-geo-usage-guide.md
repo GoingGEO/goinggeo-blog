@@ -1,8 +1,8 @@
 ---
 title: "Google Search Console 的 GEO 用法：超越传统 SEO 数据"
 description: "GSC 不只是看排名点击——生成式 AI 效果报告、AI 控制选项、索引覆盖率诊断、结构化数据。外贸企业 GSC 配置完整步骤+GEO 数据解读方法（含 2026 年 8 月新功能）。"
-pubDatetime: 2026-10-28T09:00:00+08:00
-modDatetime: 2026-10-28T09:00:00+08:00
+pubDatetime: 2026-10-27T09:00:00+08:00
+modDatetime: 2026-10-27T09:00:00+08:00
 heroImage: ''
 tags: ["technical-seo", "case-study"]
 ---
