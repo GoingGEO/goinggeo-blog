@@ -2,7 +2,7 @@
 title: "Copilot、Claude、Gemini、Grok：外贸人该为哪些 AI 平台做 GEO？"
 description: "ChatGPT 和 Perplexity 之外，Microsoft Copilot、Claude、Gemini、Grok 值不值得专门优化？本文用三个维度——市场份额、外贸用户渗透率、优化可操作性——给六个平台打分排序，附精力分配建议和每个平台的具体优化要点。"
 pubDatetime: 2026-07-01T09:00:00+08:00
-modDatetime: 2026-10-08T22:00:00+08:00
+modDatetime: 2026-11-01T15:00:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "geo-basics", "content-strategy"]
 ---
@@ -25,7 +25,7 @@ tags: ["ai-platforms", "geo-basics", "content-strategy"]
 | Grok | 2 | 2 | 2 | **6** | 🥉 第三梯队 |
 | Claude | 2 | 3 | 2 | **7** | 🥉 第三梯队 |
 
-> 表中份额与用户量均为 **2026 年 Q1-Q2 公开数据**（来源：各平台官方披露、StatCounter、Similarweb）。AI 平台数据变化快，文内所有数字请以本文 `dateModified` 标注的时间为准，超过 6 个月建议重新核实。
+> 表中份额与用户量均为 **2026 年 Q3 公开数据（截至 2026 年 10 月）**，来源为各平台官方披露、StatCounter、Similarweb。AI 平台数据变化快，文内所有数字请以本文 `dateModified` 标注的时间为准，超过 6 个月建议重新核实。
 
 **三个维度的含义：**
 
@@ -35,13 +35,34 @@ tags: ["ai-platforms", "geo-basics", "content-strategy"]
 
 结论很清晰：**第一梯队优先做满 3 个月再考虑第二梯队，第三梯队不需要专门投入。**
 
+### 先对齐量级：2026 年 Q3 平台份额快照
+
+优先级排序之前，得先把各家的真实规模摆在一起。下表是截至 2026 年 Q3 的最新公开数据：
+
+| 平台 | 全球份额（引流口径） | 用户规模（官方或权威口径） | 数据时间 |
+|------|-------------------|------------------------|---------|
+| ChatGPT | 79.4% | 10 亿+ 周活 | 2026 年 8 月（OpenAI 官方） |
+| Gemini（独立端） | 10.9% | 9.5 亿 → 10 亿月活 | 2026 年 7 月 / 8 月（Alphabet 财报） |
+| Perplexity | 4.31% | 1 亿+ 月活 | 2026 年 4 月（FT 引述公司高管） |
+| Copilot | 2.79% | 2.18 亿活跃（Windows/App/Web 合计） | 2026 年 Q2 |
+| Claude | 2.57% | 官方未披露 | — |
+| Grok | 未单列 | 约 1.17 亿月活（占 X 约 5.5 亿月活的 21%） | 2026 年 3 月 31 日（SpaceX 招股书） |
+
+**这张表要读出两个反直觉的地方：**
+
+**第一，Gemini 的量级已经远超 Perplexity。** 份额 10.9% 对 4.31%，月活差了一个数量级。但本文仍把 Perplexity 放在第一梯队——因为优先级按「你的努力能不能转化为被引用」排序，不是按用户量。Gemini 的份额大头来自安卓预装和 Google 搜索入口，你无法通过站内动作直接干预；Perplexity 一定会展示引用来源，优化效果可以当场验证。
+
+**第二，ChatGPT 一家吃掉近八成。** 这意味着任何「先做哪个平台」的讨论，边际收益都递减得很快——真正有杠杆的是内容和索引层（Google、Bing、Brave 四个爬虫体系），不是平台层。这也是本文最后那张「四个爬虫覆盖七个平台」表格存在的原因。
+
+> 份额为 StatCounter 的「聊天机器人向外引流」口径（2026 年 8 月）。它与 Similarweb 的「站点访问量」口径不同——后者同期 ChatGPT 约 55.5%、Gemini 约 25.6%——两套数字不可混用，也不可相加。
+
 ---
 
 ## 第二梯队：Microsoft Copilot — 值得关注但不需要单独优化
 
 ### Copilot 的市场地位
 
-Microsoft Copilot 在 2026 年拥有 3300 万活跃用户和 1500 万付费席位，约 70% 的财富 500 强企业已在至少一个部门部署（2026 年上半年数据）。月度 Web 访问量超过 1.5 亿次，其中超过 40% 的用户通过 Windows 或 Edge 浏览器接入。
+Microsoft Copilot 在 2026 年的量级要分两个口径看：**Copilot 家族（Windows、独立 App、Web 三端合计）活跃用户约 2.18 亿**，其中 **Microsoft 365 Copilot 付费席位超过 3000 万**（微软 FY2026 Q4 财报，季度截至 2026 年 6 月 30 日）。付费席位的爬坡速度值得单独看一眼：FY26 Q2 是 1500 万，Q3 超过 2000 万，Q4 超过 3000 万——两个季度翻了一倍，净增席位环比翻倍以上，席位超过 5 万的客户数同比增长 7 倍以上。
 
 **对外贸企业的关键意义**：欧美企业客户大量使用 Copilot。当采购商在 Edge 浏览器侧边栏问 “reliable LED supplier in China” 时，Copilot 的回答直接决定你能不能被发现。
 
@@ -78,7 +99,7 @@ Copilot 的搜索后端是 Bing。这意味着：
 
 ### Gemini 的搜索定位
 
-Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。截至 2026 年上半年，Google AI Overviews 已覆盖约 60% 的美国搜索查询。
+Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。截至 2026 年 10 月，AI Overviews 已经出现在 **80% 以上的 Google 搜索**里（Semrush、SE Ranking、seoClarity 三家追踪口径一致，2026 年 10 月）——2025 年 6 月这个数字还是 50% 左右，再往前一年只有 15%。按查询类型拆更直观：商业对比类查询（“best X for Y”、价格、评测）覆盖率 **88%**（Semrush，2026 年 8 月），品牌词查询 **83%**（Ahrefs，2026 年 9 月 29 日）。
 
 **关键认知**：Gemini 作为独立聊天机器人（gemini.google.com）的使用量远低于 ChatGPT，但它**驱动了 Google AI Overviews**。这意味着：
 
@@ -90,7 +111,9 @@ Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。�
 
 ### Gemini 独立聊天端值得管吗
 
-不值得。Gemini 独立聊天端的月活约 3.5-6.5 亿（2026 年 Q1 数据），看似不小，但其中大部分是安卓系统预装带来的被动用户，活跃搜索行为远低于 ChatGPT。
+**要分情况**。Gemini 独立端的月活已经从 2026 年 2 月的 7.5 亿涨到 7 月的 9.5 亿（Alphabet Q2 财报，Sundar Pichai 口径），8 月官方口径突破 10 亿——量级上是 Perplexity 的十倍左右。但其中很大一部分是安卓预装和 Google 生态入口带来的被动用户，主动发起搜索的比例远低于 ChatGPT。
+
+所以结论取决于你的客户是谁：**如果你的买家是欧美企业的采购、工程师，他们的默认入口是 Google 搜索里的 AI Overviews，而不是 gemini.google.com**，做好前者就把它覆盖了；如果产品偏消费电子、面向 to C 或年轻用户，Gemini 独立端的权重应该往上调。
 
 **结论**：把 Gemini 当作 Google AI Overviews 的同义词就好。做好 Google SEO + AI Overviews 优化，Gemini 自动覆盖。
 
@@ -100,7 +123,7 @@ Gemini 是 Google 的 AI 模型，也是 Google AI Overviews 的底层引擎。�
 
 ### Grok 的独特引用机制
 
-Grok 是 xAI 的 AI 搜索助手，2026 年初月活用户达 6400 万。Grok 最大的特点是**重度引用 X（原 Twitter）内容**。
+Grok 是 xAI 的 AI 搜索助手。按 SpaceX 2026 年 6 月递交的招股书，**截至 2026 年 3 月 31 日，约 1.17 亿 X 与 Grok 月活用户使用过 Grok 的 AI 功能**，占 X 约 5.5 亿月活的 21%；作为对照，2025 年 12 月 31 日是 8900 万。Grok 最大的特点是**重度引用 X（原 Twitter）内容**。
 
 根据 2026 年对 4400 个查询的分析，Grok 的引用来源构成：
 
@@ -262,7 +285,7 @@ Claude 使用 **Brave Search** 作为网页搜索后端——86.7% 的引用 URL
 
 **Q：Copilot 和 ChatGPT 都用 Bing，为什么优先级不同？**
 
-A：Copilot 的 3300 万用户（2026 年上半年）中企业用户占比高（70% 财富 500 强部署），但 Copilot 的引用逻辑和 ChatGPT 类似——都从 Bing 索引取内容。你为 ChatGPT 做的优化（Bing SEO + FAQ 格式 + 权威引用）会自动覆盖 Copilot，所以不需要单独投入精力。
+A：Copilot 的量级并不小——Copilot 家族约 2.18 亿活跃用户，Microsoft 365 Copilot 付费席位超过 3000 万（微软 FY26 Q4 财报），并且企业用户占比高。但 Copilot 的引用逻辑和 ChatGPT 类似——都从 Bing 索引取内容。你为 ChatGPT 做的优化（Bing SEO + FAQ 格式 + 权威引用）会自动覆盖 Copilot，所以不需要单独投入精力。
 
 **Q：Gemini 和 Google AI Overviews 是同一个东西吗？**
 
@@ -278,11 +301,13 @@ A：不需要单独做。Brave 的排名因素和 Google 类似（内容质量�
 
 **Q：如果精力只够做一个平台，选哪个？**
 
-A：选 ChatGPT。原因：用户量最大（2026 年上半年约 8 亿周活）、搜索依赖 Bing 索引（做好 Bing SEO 同时覆盖 Copilot 和 Perplexity）、引用逻辑最透明。但理想情况下第一梯队的三个平台应该同时做，因为它们的工作有很大重叠——写一篇 FAQ 格式的权威文章，三个平台都会受益。
+A：选 ChatGPT。原因：用户量最大（OpenAI 2026 年 8 月 6 日官方口径已突破 10 亿周活，9 月底 DevDay 对外口径为 12 亿）、搜索依赖 Bing 索引（做好 Bing SEO 同时覆盖 Copilot 和 Perplexity）、引用逻辑最透明。但理想情况下第一梯队的三个平台应该同时做，因为它们的工作有很大重叠——写一篇 FAQ 格式的权威文章，三个平台都会受益。
 
-**Q：Perplexity 用户量比 Copilot 少（2200 万 vs 3300 万，2026 年上半年数据），为什么优先级更高？**
+**Q：Perplexity 用户量比 Copilot 少（1 亿+ 月活 vs Copilot 家族 2.18 亿，2026 年口径），为什么优先级更高？**
 
 A：因为 Perplexity 的优化可操作性最高——它一定会引用 FAQ 格式内容、一定会展示引用来源、优化效果可以直接验证。Copilot 虽然用户多，但你无法直接控制它是否引用你（完全依赖 Bing 索引），可操作性低。优先级不只看用户量，还要看“你的努力能不能转化为被引用”。
+
+另外要注意 Copilot 那个 2.18 亿是 Windows、App、Web 三端合计的家族口径，口径宽于“主动打开对话提问”的用户；这也是它用户量排第二、但引流份额只有 2.79%（StatCounter，2026 年 8 月）的原因。
 
 **Q：这些平台的数据会变化很快吗？我需要定期重新评估优先级吗？**
 
