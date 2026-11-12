@@ -27,7 +27,7 @@ Schema 标记就是解决这个问题的。它是一段嵌在页面里的结构�
 
 ### 和传统 SEO 的关系
 
-传统 SEO 里，Schema 标记的作用是获得 Google 富媒体结果（Rich Results），比如搜索结果里的星级评分、面包屑导航。但 2023 年 8 月之后，Google 限制了 FAQ 富媒体结果的显示范围，只对政府和健康类网站开放。
+传统 SEO 里，Schema 标记的作用是获得 Google 富媒体结果（Rich Results），比如搜索结果里的星级评分、面包屑导航。不过 FAQ 富结果已被 Google 于 2026 年 5 月全面移除（2023 年 8 月起先收缩到政府和健康类，2026 年 5 月彻底下线）。
 
 **但 Schema 标记的价值不但没下降，反而上升了**——因为 AI 搜索引擎（ChatGPT、Perplexity、Google AI Overviews）在索引阶段会处理 Schema 标记，用它来更精准地理解和提取内容。Schema 的主要价值已经从 SEO 富媒体结果，转向了 AI 引用。
 
