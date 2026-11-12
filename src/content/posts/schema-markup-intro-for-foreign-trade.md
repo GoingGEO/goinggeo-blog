@@ -29,7 +29,7 @@ Schema 标记就是解决这个问题的。它是一段嵌在页面里的结构�
 
 传统 SEO 里，Schema 标记的作用是获得 Google 富媒体结果（Rich Results），比如搜索结果里的星级评分、面包屑导航。不过 FAQ 富结果已被 Google 于 2026 年 5 月全面移除（2023 年 8 月起先收缩到政府和健康类，2026 年 5 月彻底下线）。
 
-**但 Schema 标记的价值不但没下降，反而上升了**——因为 AI 搜索引擎（ChatGPT、Perplexity、Google AI Overviews）在索引阶段会处理 Schema 标记，用它来更精准地理解和提取内容。Schema 的主要价值已经从 SEO 富媒体结果，转向了 AI 引用。
+**但 Schema 标记的价值不但没下降，反而上升了**——因为 AI 搜索引擎（ChatGPT、Perplexity、Google AI Overviews）在索引阶段会处理 Schema 标记，用它来更精准地理解和提取内容。Schema 的主要价值已经从 SEO 富媒体结果，转向了 AI 引用。想先建立 GEO 的整体框架再回来动手，可读 [外贸GEO完全指南](/posts/foreign-trade-geo-complete-guide/)。
 
 ---
 
@@ -75,7 +75,7 @@ Schema 标记就是解决这个问题的。它是一段嵌在页面里的结构�
 }
 ```
 
-根据 Frase.io 的研究数据，FAQPage Schema 带来的 AI 引用提升约为 **3.2 倍**，HowTo Schema 的提升约为 **38%**。
+根据 Frase.io 的研究数据，FAQPage Schema 带来的 AI 引用提升约为 **3.2 倍**，HowTo Schema 的提升约为 **38%**。关于 FAQ 为什么是 GEO 里最值得投入的内容格式，见 [FAQ 结构为什么是 GEO 的杀手锏](/posts/why-faq-is-geo-killer-feature/)。
 
 ### 3. Organization（组织标记）
 
@@ -92,7 +92,7 @@ Schema 标记就是解决这个问题的。它是一段嵌在页面里的结构�
 }
 ```
 
-Organization Schema 对品牌实体建设至关重要——它帮助 AI 在多个来源中把你网站上的品牌信息和第三方提及关联起来，形成完整的品牌画像。
+Organization Schema 对品牌实体建设至关重要——它帮助 AI 在多个来源中把你网站上的品牌信息和第三方提及关联起来，形成完整的品牌画像。完整落地步骤见 [Organization Schema 实战](/posts/organization-schema-geo-guide/)。
 
 ---
 
@@ -115,7 +115,7 @@ Organization Schema 对品牌实体建设至关重要——它帮助 AI 在多�
 你可以验证一下：打开 [Google Rich Results Test](https://search.google.com/test/rich-results)，输入你任何一篇文章的 URL，应该能看到 `BlogPosting` 类型的结构化数据被检测到。
 
 **接下来需要手动加的**：
-- FAQPage Schema（第 9 篇文章会教你具体配置方法）
+- FAQPage Schema（配置步骤见 [结构化数据实战：Article 和 FAQ Schema 手把手配置](/posts/structured-data-article-faq-schema/)）
 - Organization Schema（加在首页或 About 页面）
 
 ---
