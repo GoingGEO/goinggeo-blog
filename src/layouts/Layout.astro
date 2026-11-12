@@ -61,7 +61,7 @@ const orgSchema = {
 const rssHref = getRelativeLocaleUrl(
   Astro.currentLocale ?? config.site.lang,
   "rss.xml"
-);
+).replace(/\/$/, "");
 ---
 
 <!doctype html>

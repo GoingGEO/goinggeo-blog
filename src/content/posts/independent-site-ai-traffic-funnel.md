@@ -2,7 +2,7 @@
 title: "独立站 + GEO：收到第一笔“AI 引流”询盘的完整路径"
 description: "客户说“是在 ChatGPT 里找到你的”——这条路怎么走出来的？从独立站搭建、内容发布、被索引、到客户看见并询盘的完整链条，拆解每个环节关键决策。"
 pubDatetime: 2026-11-01T09:00:00+08:00
-modDatetime: 2026-11-01T09:00:00+08:00
+modDatetime: 2026-11-12T23:15:00+08:00
 heroImage: ''
 tags: ["case-study", "foreign-trade"]
 ---
@@ -57,4 +57,4 @@ A：参考 [工厂案例半年时间线](/posts/factory-geo-case-study/)，通�
 
 **Q：独立站 + GEO 和传统 SEO 获客冲突吗？**
 
-A：不冲突，反而互补。SEO 带来搜索排名流量，GEO 带来 AI 答案流量，落地页和询盘流程可以共用。能同时做最好（见 [GEO 和 SEO 同时做](/posts/geo-and-seo-together/)）。
+A：不冲突，反而互补。SEO 带来搜索排名流量，GEO 带来 AI 答案流量，落地页和询盘流程可以共用。能同时做最好，关键是根据你的资源判断先做哪一个。

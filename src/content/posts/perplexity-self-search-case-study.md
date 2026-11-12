@@ -2,7 +2,7 @@
 title: "我在 Perplexity 搜了自己，结果让人意外"
 description: "用自己网站的关键词在 Perplexity 实测，看看 AI 到底引用了谁、为什么引用他们而不引用我。一篇真实的 GEO 效果复盘，附 5 条改进建议。"
 pubDatetime: 2026-06-18T10:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-11-12T23:15:00+08:00
 heroImage: ''
 tags: ["case-study", "ai-platforms"]
 ---
@@ -136,7 +136,7 @@ tags: ["case-study", "ai-platforms"]
 
 **Q：这个实验方法我可以复制吗？**
 
-A：完全可以。选 5 个和你业务相关的查询词，在 Perplexity 里搜，记录被引用的来源和特征。每两周做一次，追踪你的网站什么时候开始被引用。这就是 [AI 引用监控流程](/posts/ai-citation-monitoring-workflow/) 里讲的「基线数据」方法。
+A：完全可以。选 5 个和你业务相关的查询词，在 Perplexity 里搜，记录被引用的来源和特征。每两周做一次，追踪你的网站什么时候开始被引用。这就是我们反复强调的「基线数据」方法。
 
 **Q：知乎和 CSDN 的内容比我自己网站更容易被引用，那我还要不要做独立网站？**
 

@@ -2,7 +2,7 @@
 title: "某外贸工厂 GEO 案例：从零开始半年稳定被引用"
 description: "一家出口工厂从零起步做 GEO 完整过程：起点条件、策略选择、关键节点时间轴、现在的引用稳定性和业务影响。重点还原每个阶段遇到的真实问题和应对方式。"
 pubDatetime: 2026-10-29T09:00:00+08:00
-modDatetime: 2026-10-29T09:00:00+08:00
+modDatetime: 2026-11-12T23:15:00+08:00
 heroImage: ''
 tags: ["case-study", "foreign-trade"]
 ---
@@ -45,7 +45,7 @@ tags: ["case-study", "foreign-trade"]
 
 半年后，这家工厂在目标品类的 AI 可见度从“零”到“稳定出现”，自然询盘中开始出现“在 ChatGPT / Perplexity 里找到你们”的明确来源。它不是爆单神话，而是“持续做对的事，半年见到真实回报”的样板。
 
-想看更系统的复盘方法，参考 [GEO 效果追踪](/posts/geo-tracking-tools-guide/) 和 [6 个月运营复盘专文](/posts/goinggeo-6-month-retrospective/)（后续）。
+想看更系统的复盘方法，参考 [GEO 效果追踪](/posts/geo-tracking-tools-guide/)。等博客运营满 6 个月，我们还会出一篇完整的运营复盘。
 
 **Q：这个案例能直接照抄吗？**
 

@@ -2,7 +2,7 @@
 title: "如何追踪你的 GEO 效果？可用工具完整清单"
 description: "三类追踪方法：GSC 的 AI Overviews 数据、Perplexity 手动检测法、第三方工具推荐。给出适合外贸企业的简易 GEO 效果追踪模板。"
 pubDatetime: 2026-10-17T09:00:00+08:00
-modDatetime: 2026-10-17T09:00:00+08:00
+modDatetime: 2026-11-12T23:15:00+08:00
 heroImage: ''
 tags: ["case-study", "technical-seo"]
 ---
@@ -40,7 +40,7 @@ Perplexity 对引用的展示相对透明——它会在答案里列出来源。
 - 被引用页面
 - 备注（对手是否也出现）
 
-坚持记录 2 到 3 个月，你就能看清“哪些内容真的在被 AI 引用”、以及“和竞品的差距在哪”。后续有 [AI 引用监控流程专文](/posts/ai-citation-monitoring-workflow/) 讲更系统的日常机制。
+坚持记录 2 到 3 个月，你就能看清“哪些内容真的在被 AI 引用”、以及“和竞品的差距在哪”。后续我们会专门写一篇，把这套记录固定成更系统的日常监控机制。
 
 **Q：GEO 没有排名，怎么知道有没有效果？**
 
