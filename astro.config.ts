@@ -21,6 +21,8 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
+  // 统一带尾斜杠，避免 /posts/2 → /posts/2/ 的 308 额外跳转
+  trailingSlash: "always",
   integrations: [
     mdx(),
     sitemap({

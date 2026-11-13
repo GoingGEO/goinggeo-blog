@@ -2,7 +2,7 @@
 title: "E-E-A-T 是什么？为什么它是 GEO 时代最重要的内容标准"
 description: "E-E-A-T（经验、专业知识、权威性、可信度）是 Google 和 AI 引擎共同认可的内容质量评估框架。本文用外贸场景逐个解释四个维度的含义，给出可操作的体现方式——作者署名、经验案例、数据引用、来源标注，并附一份 E-E-A-T 自查清单。"
 pubDatetime: 2026-06-22T09:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-11-13T22:15:00+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---
@@ -199,11 +199,11 @@ E-E-A-T 原本是 Google 给人工搜索质量评估员（Search Quality Rater�
 
 具体来说：
 
-- ChatGPT [引用内容时优先看权威性](/posts/chatgpt-search-citation-logic)——有没有作者署名、来源是否可信
+- ChatGPT [引用内容时优先看权威性](/posts/chatgpt-search-citation-logic/)——有没有作者署名、来源是否可信
 - Perplexity 显示引用来源链接，读者会点进去看——如果网站看起来不可信，读者会质疑 Perplexity 的引用质量
-- Google AI Overviews 直接复用 Google 搜索的 E-E-A-T 评估体系，[FAQPage Schema](/posts/why-faq-is-geo-killer-feature) 等结构化数据是传递 E-E-A-T 信号的技术手段
+- Google AI Overviews 直接复用 Google 搜索的 E-E-A-T 评估体系，[FAQPage Schema](/posts/why-faq-is-geo-killer-feature/) 等结构化数据是传递 E-E-A-T 信号的技术手段
 
-一句话总结：**E-E-A-T 是传统 SEO 和 GEO 的共同地基。** [GEO 入门](/posts/what-is-geo)教你怎么让 AI 发现你，E-E-A-T 决定 AI 会不会引用你。
+一句话总结：**E-E-A-T 是传统 SEO 和 GEO 的共同地基。** [GEO 入门](/posts/what-is-geo/)教你怎么让 AI 发现你，E-E-A-T 决定 AI 会不会引用你。
 
 ---
 
@@ -221,7 +221,7 @@ A：E-E-A-T 不要求你是行业泰斗。一个有 5 年经验的质检主管�
 
 A：在外贸行业，大多数企业网站的文章没有作者署名，只有公司名。这在外贸行业是常态，但对 AI 引擎来说是权威性信号缺失。有署名的文章比无署名文章被 ChatGPT 引用的概率明显更高。加一行“作者：张工 | 质检总监，10 年 LED 照明行业经验”只需要 10 秒，但这是 E-E-A-T 投入产出比最高的单一动作。
 
-**Q：E-E-A-T 和 [FAQ Schema](/posts/structured-data-article-faq-schema) 有什么关系？**
+**Q：E-E-A-T 和 [FAQ Schema](/posts/structured-data-article-faq-schema/) 有什么关系？**
 
 A：FAQ Schema 是传递 E-E-A-T 信号的技术手段之一。FAQ 格式让内容的问答结构更清晰，提升信息密度（Expertise）；FAQ 中包含的专业解答体现经验（Experience）；有作者署名的 FAQ 比无署名的权威性更高（Authoritativeness）；FAQ 的准确答案提升可信度（Trustworthiness）。两者是内容和形式的关系——E-E-A-T 是内容质量框架，Schema 是技术呈现手段。
 

@@ -1,7 +1,11 @@
 import type { ResolvedAstroPaperConfig } from "@/types/config";
 import { getAssetPath } from "./withBase";
 
-const publicFiles = import.meta.glob("/public/*", { eager: false });
+// 只匹配图片：若 glob 全部 public 文件，会把 _redirects / robots.txt 等非 JS 文件
+// 也建成模块入口，Rollup 解析时报 "Expected ';'" 导致构建失败。
+const publicFiles = import.meta.glob("/public/*.{jpg,jpeg,png,webp,avif,gif,svg}", {
+  eager: false,
+});
 
 function existsInPublic(filename: string): boolean {
   return `/public/${filename}` in publicFiles;

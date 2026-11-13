@@ -1,0 +1,23 @@
+# 旧分页 URL 301 到列表首页（perPage 4→12 后原 /posts/7/~/posts/17/ 已不存在）
+/posts/7    /posts/  301
+/posts/7/   /posts/  301
+/posts/8    /posts/  301
+/posts/8/   /posts/  301
+/posts/9    /posts/  301
+/posts/9/   /posts/  301
+/posts/10    /posts/  301
+/posts/10/   /posts/  301
+/posts/11    /posts/  301
+/posts/11/   /posts/  301
+/posts/12    /posts/  301
+/posts/12/   /posts/  301
+/posts/13    /posts/  301
+/posts/13/   /posts/  301
+/posts/14    /posts/  301
+/posts/14/   /posts/  301
+/posts/15    /posts/  301
+/posts/15/   /posts/  301
+/posts/16    /posts/  301
+/posts/16/   /posts/  301
+/posts/17    /posts/  301
+/posts/17/   /posts/  301

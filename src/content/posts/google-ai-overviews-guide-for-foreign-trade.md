@@ -2,7 +2,7 @@
 title: "Google AI Overviews 外贸人完全指南：怎么出现在那个蓝色摘要框里"
 description: "Google AI Overviews（AI 概览）正在吃掉传统搜索结果的点击率。本文系统讲解哪类关键词会触发 AI Overviews、它引用内容的核心逻辑、如何用 Google Search Console 追踪曝光数据，以及外贸企业可以立即执行的实战优化策略。"
 pubDatetime: 2026-06-24T09:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-11-13T22:15:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "content-strategy", "geo-basics"]
 ---
@@ -72,7 +72,7 @@ AI Overviews 是由 Google 的大语言模型生成的，但它引用的内容�
 
 AI Overviews 和 Google 核心算法使用同一套质量评估框架——E-E-A-T（经验、专业知识、权威性、可信度）。内容如果体现出真实的行业经验和专业深度，被引用的概率会明显高于泛泛而谈的内容。
 
-关于 E-E-A-T 的详细解释，可以参考：[E-E-A-T 是什么？为什么它是 GEO 时代最重要的内容标准](/posts/eeat-content-quality-framework)
+关于 E-E-A-T 的详细解释，可以参考：[E-E-A-T 是什么？为什么它是 GEO 时代最重要的内容标准](/posts/eeat-content-quality-framework/)
 
 ### 核心因素二：直接回答搜索问题
 
