@@ -2,7 +2,7 @@
 title: "robots.txt 和 llms.txt：AI 爬虫配置完全指南"
 description: "robots.txt 管的是“传统爬虫能不能抓”，llms.txt 管的是“AI 模型该怎么读你的网站”。本文讲清两者区别、llms.txt 的标准写法、AstroPaper 站点的配置方法，以及最常见的配置错误。"
 pubDatetime: 2026-08-15T09:00:00+08:00
-modDatetime: 2026-10-25T16:45:00+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["technical-seo", "geo-basics"]
 ---
@@ -16,6 +16,8 @@ robots.txt 是 1994 年制定的爬虫排除标准，用 Disallow / Allow 指令
 传统搜索引擎（Google、Bing）会严格遵守 robots.txt。但 AI 爬虫的情况复杂得多：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 各自有 bot 名称，是否遵守 robots.txt 取决于各家政策，且是“自愿”性质。
 
 更关键的是，即使 robots.txt 成功阻止了抓取，它也做不到两件 GEO 关心的事：第一，它无法“引导” AI 优先阅读你最想被引用的页面；第二，它管不了对方已经缓存或训练过的历史内容。所以 robots.txt 在 GEO 里的作用是“边界管理”（阻止低价值页面被抓、控制抓取成本），而不是“内容引导”。
+
+顺带一提边界管理的另一面：如果你的站被大量 AI 爬虫高频抓取，或者依赖链上有风险，也值得做一次安全方向的检查。我们给自己站点做过一次，过程见 [AI 安全审计复盘](/posts/ai-security-audit-goinggeo-oss-scanner/)。
 
 如果你想精确管理 AI 爬虫，需要在 robots.txt 里显式声明对应的 bot 名。例如允许 Google 的 AI 抓取、拒绝其他：
 

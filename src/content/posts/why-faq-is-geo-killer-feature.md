@@ -2,7 +2,7 @@
 title: "FAQ 结构为什么是 GEO 的杀手锏？"
 description: "FAQ 格式的 AI 引用率是普通段落的 2.2 倍。不是因为 FAQ 更好读，而是因为它的结构天然就是 AI 想引用的样子——每个 Q&A 本身就是完整的知识胶囊。"
 pubDatetime: 2026-06-17T10:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["geo-basics", "content-strategy"]
 ---
@@ -129,7 +129,7 @@ Astro 的 Markdown 文章里不能直接插入 JSON-LD，但有替代方案：
 
 **方案一**：在文章末尾用 HTML 注释标注 FAQ 结构（Perplexity 仍能识别内容）
 
-**方案二**：等第 9 篇文章（结构化数据实战），我会教你直接在 Astro 的页面模板里加 FAQPage Schema，一劳永逸
+**方案二**：按 [FAQPage Schema 实战配置](/posts/structured-data-article-faq-schema/) 里的做法，直接在 Astro 的页面模板里加，一劳永逸
 
 目前阶段，先把 FAQ 内容本身写好，Schema 标记是“加分项”不是“必选项”。内容质量到位了，即使没有 Schema，AI 仍然会引用你。
 

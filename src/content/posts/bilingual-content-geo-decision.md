@@ -2,7 +2,7 @@
 title: "外贸企业做 GEO，内容需要中英双语吗？"
 description: "根据目标受众、资源投入、现阶段优先级给决策框架。英文是主战场，中文是加分项。双语正确做法不是机器翻译，是分别针对不同受众写作。"
 pubDatetime: 2026-09-09T09:00:00+08:00
-modDatetime: 2026-09-09T09:00:00+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy"]
 ---
@@ -33,7 +33,7 @@ tags: ["foreign-trade", "content-strategy"]
 - 中文版面向国内受众，用国内语境、案例、公制单位。
 - 两版结构可以相似，但内容要各自打磨，不是逐句对照。
 
-如果做双语，记得正确配置 hreflang，避免 AI 把两个语言版本当成重复内容。具体避坑见 hreflang 标签专文（后续）。
+如果做双语，记得正确配置 hreflang，避免 AI 把两个语言版本当成重复内容。具体避坑见 [hreflang 多语言配置指南](/posts/hreflang-multilingual-geo-guide/)。
 
 ## 决策建议
 
@@ -51,7 +51,7 @@ A：不行。机翻内容密度低、读感差，AI 和人都不会当权威。�
 
 **Q：双语网站一定要配置 hreflang 吗？**
 
-A：强烈建议。不配 hreflang，AI 和搜索引擎可能把中英文当作重复内容，稀释权重甚至误判。配置方法见 hreflang 专文。
+A：强烈建议。不配 hreflang，AI 和搜索引擎可能把中英文当作重复内容，稀释权重甚至误判。配置方法见 [hreflang 多语言配置指南](/posts/hreflang-multilingual-geo-guide/)。
 
 **Q：中小外贸企业有必要做双语吗？**
 

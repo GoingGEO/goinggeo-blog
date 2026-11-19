@@ -2,7 +2,7 @@
 title: "Open Graph 和社交分享：间接影响 GEO 的隐藏信号"
 description: "LinkedIn / Twitter 分享时 OG 标签决定展示效果→影响点击率→影响权威性信号。OG 标签工作原理、AstroPaper 配置方法、外贸内容在 LinkedIn 分享最佳实践。"
 pubDatetime: 2026-09-22T09:00:00+08:00
-modDatetime: 2026-09-22T09:00:00+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["technical-seo", "content-strategy"]
 ---
@@ -19,7 +19,7 @@ OG 标签本身不影响 AI 的引用判断。但它的连锁反应是真实的�
 2. 更多人点开、读完、甚至转发 → 真实流量和品牌提及增加。
 3. 真实流量、品牌提及、外部链接，都会被 AI 视为“这个实体有真实关注度”的信号。
 
-所以 OG 是“GEO 权威层”的间接助推器，尤其对外贸企业常用的 LinkedIn 渠道。
+所以 OG 是“GEO 权威层”的间接助推器，尤其对外贸企业常用的 LinkedIn 渠道。LinkedIn 上除了分享卡片，主页和公司页本身也是实体信号，做法见 [LinkedIn 品牌实体建设](/posts/linkedin-brand-entity-geo/)。
 
 ## OG 标签工作原理
 

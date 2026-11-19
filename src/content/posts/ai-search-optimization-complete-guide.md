@@ -2,7 +2,7 @@
 title: "AI 搜索优化完全指南：2026 年外贸人必修课"
 description: "AI 搜索优化就是让 ChatGPT、Perplexity、Google AI Overviews 在回答时更愿意、更准确地引用你的内容。本文是 GoingGEO 的“AI 搜索优化”支柱页，系统拆解内容层、技术层、权威层三层框架，并给出外贸企业可落地的行动清单。"
 pubDatetime: 2026-08-29T09:00:00+08:00
-modDatetime: 2026-08-29T09:00:00+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["geo-basics", "ai-platforms"]
 ---
@@ -25,6 +25,7 @@ AI 搜索优化（常被称为 GEO，Generative Engine Optimization）是指：�
 - **FAQ 是杀手级结构**：用问答直接命中“人们会问 AI 什么”，并加 FAQPage Schema。见 [为什么 FAQ 是 GEO 杀手级功能](/posts/why-faq-is-geo-killer-feature/)。
 - **E-E-A-T 证明你专业**：真实经验、专业资质、可验证信息。框架见 [E-E-A-T 内容质量框架](/posts/eeat-content-quality-framework/)。
 - **数据引用增强可信度**：用可核查的数据替代空泛断言。方法见 [数据引用指南](/posts/data-citation-geo-credibility-guide/)。
+- **产能靠流程不靠灵感**：哪些环节能交给 AI、哪些必须人工把关，见 [AI 辅助写作工作流](/posts/ai-assisted-writing-workflow/)。
 
 ### 第二层：技术层（让 AI 抽得准、抓得到）
 

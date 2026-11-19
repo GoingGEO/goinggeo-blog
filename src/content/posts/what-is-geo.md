@@ -2,7 +2,7 @@
 title: "外贸GEO是什么？生成式引擎优化入门指南"
 description: "外贸GEO（生成式引擎优化）是面向 AI 搜索时代的优化策略，帮助外贸企业在 ChatGPT、Perplexity 等生成式引擎中获得推荐和引用。本文系统讲解外贸GEO的概念、核心原则和入门步骤。"
 pubDatetime: 2026-06-15T08:00:00+08:00
-modDatetime: 2026-07-14T23:52:34+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["geo-basics", "foreign-trade"]
 ---
@@ -15,7 +15,9 @@ tags: ["geo-basics", "foreign-trade"]
 
 ## 什么是外贸GEO？
 
-**外贸GEO** 是 GEO（生成式引擎优化）在外贸行业的应用分支。它针对 ChatGPT、Perplexity、Google AI Overviews、Bing Copilot 等 AI 搜索引擎的内容抓取和引用机制，系统优化外贸企业网站的内容结构、信息密度、技术可读性和权威信号，使企业内容在 AI 生成的采购建议中被引用。
+**外贸GEO** 是 GEO（Generative Engine Optimization，生成式引擎优化）在外贸行业的应用分支。它针对 ChatGPT、Perplexity、Google AI Overviews、Bing Copilot 等 AI 搜索引擎的内容抓取和引用机制，系统优化外贸企业网站的内容结构、信息密度、技术可读性和权威信号，使企业内容在 AI 生成的采购建议中被引用。
+
+顺带澄清一个高频误解：这里的 GEO 和「地理 / 地域」没有任何关系。两者缩写相同、含义完全不同，混用会让你找错方向、看错资料，区别见 [GEO 不是地理优化](/posts/geo-vs-geographic-explained/)。
 
 ## 为什么外贸企业需要做GEO？
 

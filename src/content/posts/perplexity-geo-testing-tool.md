@@ -2,7 +2,7 @@
 title: "外贸GEO工具推荐：Perplexity 首选测试工具"
 description: "Perplexity 是目前唯一公开标注引用来源的 AI 搜索引擎，是外贸GEO效果检验的首选工具。本文教你用 Perplexity 分析竞品被引用的原因、检测自己的内容是否出现、用引用来源反推改进方向，附 6 个可直接复制的测试 prompt 模板。"
 pubDatetime: 2026-06-28T09:00:00+08:00
-modDatetime: 2026-07-06T20:46:38+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["ai-platforms", "geo-basics", "foreign-trade"]
 ---
@@ -12,6 +12,8 @@ Perplexity 是目前唯一在回答中公开标注每句话引用来源的 AI �
 **做外贸GEO 优化不用 Perplexity 做测试，等于做 SEO 不看 Google 搜索结果。** 本文教你 3 件事：用 Perplexity 分析竞品为什么被引用、检测自己的内容有没有出现、用引用来源反推内容改进方向。
 
 > 如果你想了解 ChatGPT 的引用机制，可以先看 [ChatGPT 搜索引用逻辑拆解](/posts/chatgpt-search-citation-logic/)。本文专注 Perplexity 的实操测试方法。
+
+想先看一个完整跑通的样例？我们用自己的站点做过一次自测，记录了从「没被引用」到「找到原因」的全过程，见 [用 Perplexity 自测网站的案例](/posts/perplexity-self-search-case-study/)。
 
 ---
 

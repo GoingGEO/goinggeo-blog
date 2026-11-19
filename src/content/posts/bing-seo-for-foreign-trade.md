@@ -2,7 +2,7 @@
 title: "Bing SEO入门：外贸人最容易忽略的流量入口"
 description: "Google 之外，Bing 是外贸企业不能忽视的流量入口。更重要的是：ChatGPT 的联网搜索依赖 Bing 索引，优化 Bing 就是优化 AI 可见性。这篇教你怎么做。"
 pubDatetime: 2026-06-16T10:00:00+08:00
-modDatetime: 2026-11-01T15:00:00+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["geo-basics", "ai-platforms"]
 ---
@@ -10,6 +10,8 @@ tags: ["geo-basics", "ai-platforms"]
 提到搜索引擎，外贸人第一反应都是 Google。这没问题，但有一个平台被严重低估了——**Bing**。
 
 原因有两层。第一层是流量本身：Bing 在全球搜索市场占 **5.3%**，但**桌面端占 14.6%、美国桌面端占 18.8%**（StatCounter，2026 年 9 月）——Bing 的份额几乎全部来自 Windows 与 Edge 的桌面环境，覆盖的正是**高消费能力的 PC 端用户**，这恰恰是 B2B 采购商的典型使用场景。
+
+Bing 只是 AI 搜索版图里的一个入口，其他引擎各自扮演什么角色，见 [AI 搜索引擎全景](/posts/ai-search-engines-for-foreign-trade/)。
 
 第二层更重要：**ChatGPT 的联网搜索（Search the web）依赖 Bing 的索引**。你的网站没被 Bing 收录，就等于 ChatGPT 在联网搜索时“看不到”你。做 GEO 而忽略 Bing，相当于做传统 SEO 而忽略 Google——事倍功半。
 

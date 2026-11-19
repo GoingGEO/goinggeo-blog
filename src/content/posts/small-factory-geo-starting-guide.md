@@ -2,7 +2,7 @@
 title: "中小工厂外贸GEO从哪开始：没有内容团队的最小可行方案"
 description: "资源有限的外贸中小工厂做 GEO，核心不是加大投入，而是选对方向。本文给出一个现实路径：每月 4 篇客户问题类文章起步，用 AI 辅助写作降低生产成本，附 6 个月基础建设路线图。"
 pubDatetime: 2026-07-11T17:00:00+08:00
-modDatetime: 2026-07-11T18:01:02+08:00
+modDatetime: 2026-11-19T22:25:00+08:00
 heroImage: ''
 tags: ["foreign-trade", "content-strategy", "geo-basics"]
 ---
@@ -102,7 +102,7 @@ tags: ["foreign-trade", "content-strategy", "geo-basics"]
 2. **公司和产品介绍类**（“你们做什么的”、“工厂实力”）→ 中优先级
 3. **行业知识类**（“行业趋势”、“技术对比”）→ 低优先级
 
-购买决策类问题的引用价值最高，因为采购商问 AI 的也是同样的问题。
+购买决策类问题的引用价值最高，因为采购商问 AI 的也是同样的问题。具体的选题方向还要看行业——包袋、LED、机械买家关心的点差别很大，行业间的取舍见 [不同行业的 GEO 策略差异](/posts/industry-specific-geo-strategy/)。
 
 ---
 
